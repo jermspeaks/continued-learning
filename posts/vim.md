@@ -42,3 +42,14 @@ Vim, like other text editors, has an ecosystem of plugins.
 
 - Todo: http://vim.wikia.com/wiki/Turn_on_syntax_coloring_in_Mac_OS_X
 
+## More Research to go through
+
+- http://yannesposito.com/Scratch/en/blog/Vim-as-IDE/
+- coloring vim (as stated above)
+- adding more language support
+- adding line numbers
+- go to top of file (shortcut)
+- go to bottom of file (shortcut)
+- how to find
+
+
