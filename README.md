@@ -10,5 +10,6 @@ For each topic, I want to do the following:
 * Summarize the topic in my own words
 * Add resources
 * Create a code sample, if necessary
-
+* Blog about it
+  * [Write an post on codepen](http://codepen.io/write/)
 
