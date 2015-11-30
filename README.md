@@ -2,7 +2,7 @@
 
 Topics I am currently learning, going to learn in the future, and topics I've learned in the past. 
 
-The [topic list](./topics/index).
+The [topic list](./topics/index.md).
 
 For each topic, I want to do the following:
 
