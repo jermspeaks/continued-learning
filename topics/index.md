@@ -6,6 +6,7 @@
 
 ## Future Topics
 
+* [Dotfiles](http://dotfiles.github.io/)
 * [Advanced Git Features](https://github.com/git-game/git-game-v2)
 * [Vim Plugin Manager](https://github.com/junegunn/vim-plug)
 * [Animation: LERP](http://codepen.io/rachsmith/post/animation-tip-lerp)
