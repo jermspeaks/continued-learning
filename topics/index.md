@@ -1,5 +1,7 @@
 # Topics
 
+Here you will find a list of general topics for me to tackle. For challenges, exercises, tutorials and games, you can find that in [challenges](./challenges.md)
+
 ## Current Topic
 
 * [Javascript Coding Challenges](https://github.com/kolodny/exercises)
@@ -12,3 +14,6 @@
 * [Animation: LERP](http://codepen.io/rachsmith/post/animation-tip-lerp)
 
 ## Past Topics
+
+
+
