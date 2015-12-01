@@ -15,6 +15,7 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 
 * `w` to go forward one word
 * `bt to go backward one word
+* `dw` to delete word on cursor
 
 **Line Manipulation**
 
