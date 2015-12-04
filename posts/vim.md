@@ -106,6 +106,10 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 
 * `u` for undo
 
+Many times, you'll want to know how to copy and paste.
+
+- TODO http://vim.wikia.com/wiki/Mac_OS_X_clipboard_sharing
+
 ### Colon Commands
 
 * `:help <command>` for help on any command
