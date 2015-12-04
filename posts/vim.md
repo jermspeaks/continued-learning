@@ -4,7 +4,7 @@
 
 All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 
-**Navigation**
+### Navigation
 
 * `h` for left
 * `l` for right
@@ -15,7 +15,7 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 * `ctrl + e` move window down one line
 * `ctrl + y` move window up one line
 
-**Word Manipulation**
+### Word Manipulation
 
 * `w` to go forward to the beginning of next word
 * `b` to go backward to the beginning of previous word
@@ -23,23 +23,33 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 * `dw` delete word up to the cursor including space between next word
 * `diw` delete word on cursor
 
-**Line Manipulation**
+#### Yanking Words
+
+* `yiw` yank in word
+
+### Line Manipulation
 
 * `0` or `^` for beginning of line
 * `dd` for delete line where cursor is on
 * `:m <line number>` move to line number
 
-**Other**
+### Editing
 
 * `u` for undo
+
+### Colon Commands
+
 * `:help <command>` for help on any command
 
 ## Plugins
 
 Vim, like other text editors, has an ecosystem of plugins. 
 
-### Vim Package Managers
-- [Vundle Package Manager](https://github.com/VundleVim/Vundle.vim)
+- [vundle](https://github.com/VundleVim/Vundle.vim) - plugin manager
+- [nerdtree](https://github.com/scrooloose/nerdtree) - file tree
+- [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file finder
+- [fugitive](https://github.com/tpope/vim-fugitive) - git tool
+- [syntastic](https://github.com/scrooloose/syntastic) - syntax checker/linter
 
 ### Packages
 
@@ -48,6 +58,16 @@ Vim, like other text editors, has an ecosystem of plugins.
 ### Colorize
 
 - Todo: http://vim.wikia.com/wiki/Turn_on_syntax_coloring_in_Mac_OS_X
+
+## Macros
+
+q{register}
+(do the things)
+q
+
+### Registers
+
+`WIP`
 
 ## More Research to go through
 
@@ -58,8 +78,9 @@ Vim, like other text editors, has an ecosystem of plugins.
 - go to top of file (shortcut)
 - go to bottom of file (shortcut)
 - how to find
+- Macros: q command, recording so you don't repeat yourself
 
 ## Helpful Resources
 
-- [vim + tmux](https://www.youtube.com/watch?v=5r6yzFEXajQ) - Talk at OMG!Code given by [Nick Nisi](http://nicknisi.com/)
+- [vim + tmux](https://www.youtube.com/watch?v=5r6yzFEXajQ) - Talk at [OMG!Code](http://code.omahamakergroup.org/) given by [Nick Nisi](http://nicknisi.com/)
 
