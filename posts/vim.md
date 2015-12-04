@@ -137,6 +137,17 @@ I set it up using [vim-monokai](https://github.com/sickill/vim-monokai), which I
 I want to figure out how to do this better, so I placed a todo with the wiki from the vim wikia.
 
 - Todo: http://vim.wikia.com/wiki/Turn_on_syntax_coloring_in_Mac_OS_X
+- Todo: talk about [colorschemes package](https://github.com/flazz/vim-colorschemes)
+
+You can change the color scheme within normal mode. Heres how.
+
+```vim
+:colorscheme <name>
+" short version
+:colo <name>
+" autocomplete
+:colo <press tab>
+```
 
 ## Macros
 
