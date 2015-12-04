@@ -140,6 +140,16 @@ I want to figure out how to do this better, so I placed a todo with the wiki fro
 
 ## Macros
 
+### Repeatl last change
+
+`.` command repeats the last change made in normal mode. 
+It's like oh my gosh amaze balls.
+
+- TODO http://vim.wikia.com/wiki/Repeat_last_change
+- TODO Show an example
+
+### Recording
+
 q{register}
 (do the things)
 q
