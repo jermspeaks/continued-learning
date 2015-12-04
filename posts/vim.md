@@ -10,12 +10,18 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 * `l` for right
 * `j` for down
 * `k` for up
+* `gg` top of the file
+* `H` top of the window
+* `ctrl + e` move window down one line
+* `ctrl + y` move window up one line
 
 **Word Manipulation**
 
-* `w` to go forward one word
-* `bt to go backward one word
-* `dw` to delete word on cursor
+* `w` to go forward to the beginning of next word
+* `b` to go backward to the beginning of previous word
+* `e` to go forward to the end of the next word
+* `dw` delete word up to the cursor including space between next word
+* `diw` delete word on cursor
 
 **Line Manipulation**
 
@@ -53,4 +59,7 @@ Vim, like other text editors, has an ecosystem of plugins.
 - go to bottom of file (shortcut)
 - how to find
 
+## Helpful Resources
+
+- [vim + tmux](https://www.youtube.com/watch?v=5r6yzFEXajQ) - Talk at OMG!Code given by [Nick Nisi](http://nicknisi.com/)
 
