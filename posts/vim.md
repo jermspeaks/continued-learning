@@ -1,5 +1,9 @@
 # Vim
 
+## Configuration
+
+Configuration file: `~/.vimrc`
+
 ## Useful Shortcuts
 
 All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
