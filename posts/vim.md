@@ -81,12 +81,18 @@ Vim, like other text editors, has an ecosystem of plugins.
 - [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file finder
 - [fugitive](https://github.com/tpope/vim-fugitive) - git tool
 - [syntastic](https://github.com/scrooloose/syntastic) - syntax checker/linter
+- [vim-markdown](https://github.com/plasticboy/vim-markdown) - markdown syntax, matching rules and mappings, and extensions
 
 ### Packages
 
 - [Sparkup](https://github.com/rstacruz/sparkup) - For html tag completion
 
 ### Colorize
+
+I'm currently using Monokai, mainly because it was a default I had with Ruby on sublime. 
+I set it up using [vim-monokai](https://github.com/sickill/vim-monokai), which I actually want to go back and figure out how to hook it up with vundle and have it linked to the repo.
+
+I want to figure out how to do this better, so I placed a todo with the wiki from the vim wikia.
 
 - Todo: http://vim.wikia.com/wiki/Turn_on_syntax_coloring_in_Mac_OS_X
 
