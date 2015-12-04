@@ -15,6 +15,10 @@ For each topic, I want to do the following:
 * Blog about it
   * [Write an post on codepen](http://codepen.io/write/)
 
+## Posts
+
+- [Vim](./posts/vim.md)
+
 ## Books
 
 This is a list of books with corresponding book notes that I want to add. Not every book on this list is about tech.
