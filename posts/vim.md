@@ -8,6 +8,8 @@ Best advice - configure vim, and for that matter dotfiles, on your own. Don't bl
 
 ### Modal Editing
 
+Quoted from Nick Nisi
+
 > Change the meaning of the keys in each mode of operation
 
 > - Normal mode - navigate the structure of the file
