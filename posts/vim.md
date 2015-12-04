@@ -99,8 +99,16 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 ### Line Manipulation
 
 * `0` or `^` for beginning of line
+* `shift + i` go to the beginning of line and insert
+* `$` go to end of line
+* `shift + a` go to end of line and insert
 * `dd` for delete line where cursor is on
-* `:m <line number>` move to line number
+
+#### Moving lines
+
+* `:m <line number>` move to after the line number
+* `[selected_line_num]m <line_number>` moves the line to after the line number
+* `[from_line_num,to_line_num]m <line_number>` moves the selected lines to after the line number
 
 ### Editing
 
