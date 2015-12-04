@@ -21,7 +21,8 @@ Vim is an endless rabbithole where you will get sucked in hours just setting it 
 But it's your customization.
 And that's the beauty of vim.
 
-Best advice - configure vim, and for that matter dotfiles, on your own. Don't blindly copy and paste configurations, because you'll never understand them all. 
+Best advice - configure vim, and for that matter dotfiles, on your own.
+Don't blindly copy and paste configurations, because you'll never understand them all. 
 
 ### Modal Editing
 
@@ -36,17 +37,37 @@ Quoted from Nick Nisi
 
 ### Line Numbers
 
-Where are my line numbers? Simply type the following.
+Where are my line numbers?
+Simply type the following.
 
-`:set number`
+```
+:set number
+```
 
 To remove the numbers, you can use this command.
 
-`:set nonumber` 
+```
+:set nonumber
+```
 
 ## Configuration
 
-Configuration file: `~/.vimrc`
+If you're sick and tired of setting everything up every time you boot up vim, simply place the configuration in your configuration file.
+You can find the configuration file at this location.
+`~/.vimrc`
+
+Here's a truncated version of my general settings.
+
+```
+syntax enable			" Enable syntax highlighting
+set tabstop=2			" set the tab stop at 2 spaces
+set shiftwidth=2	" set the shift width by 2 spaces
+set noexpandtab		" do not expand tab
+set number				" show line numbers
+```
+
+For all of my settings, please view my [dotfiles](https://github.com/jermspeaks/dotfiles).
+
 
 ## Useful Shortcuts
 
