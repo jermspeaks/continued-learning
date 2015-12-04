@@ -2,7 +2,24 @@
 
 ## Initial Setup
 
-Honestly, the vim editor looks slim. But that's because I didn't know about it's different modes. That's the beauty of vim.
+I got into vim from a co-worker.
+I thought it's that clunky text editor in your terminal you must use when you have ssh into the linux server.
+However, I've grown to understand vim is much more than a text editor.
+It can also be an IDE.
+
+When I first used vim, it just looked plain an boring.
+The black screen with hard to understand shortcuts.
+There weren't any line numbers.
+I didn't even know how to exit the damn program for a good 5 minutes.
+
+Then I started figuring it out slowly.
+Vim has different modes.
+Vim can do macros.
+Vim can find things with the same grep commands.
+And it's quite expandable with the limitless plugins.
+Vim is an endless rabbithole where you will get sucked in hours just setting it up.
+But it's your customization.
+And that's the beauty of vim.
 
 Best advice - configure vim, and for that matter dotfiles, on your own. Don't blindly copy and paste configurations, because you'll never understand them all. 
 
