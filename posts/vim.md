@@ -1,5 +1,30 @@
 # Vim
 
+## Initial Setup
+
+Honestly, the vim editor looks slim. But that's because I didn't know about it's different modes. That's the beauty of vim.
+
+Best advice - configure vim, and for that matter dotfiles, on your own. Don't blindly copy and paste configurations, because you'll never understand them all. 
+
+### Modal Editing
+
+> Change the meaning of the keys in each mode of operation
+
+> - Normal mode - navigate the structure of the file
+> - Insert Mode - editing the file
+> - Visual mode - highlighting portions of the file to manipulate at once
+> - Ex mode - command mode
+
+### Line Numbers
+
+Where are my line numbers? Simply type the following.
+
+`:set number`
+
+To remove the numbers, you can use this command.
+
+`:set nonumber` 
+
 ## Configuration
 
 Configuration file: `~/.vimrc`
@@ -44,25 +69,6 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 ### Colon Commands
 
 * `:help <command>` for help on any command
-
-## Initial Setup
-
-Honestly, the vim editor looks slim. But that's because I didn't know about it's different modes. That's the beauty of vim.
-
-### Modes
-
-- Command Mode
-- Insert Mode
-
-### Line Numbers
-
-Where are my line numbers? Simply type the following.
-
-`:set number`
-
-To remove the numbers, you can use this command.
-
-`:set nonumber` 
 
 ## Plugins
 
