@@ -45,6 +45,25 @@ All of the shortcuts can be found on the [Vim Wiki Website](http://vim.wikia.com
 
 * `:help <command>` for help on any command
 
+## Initial Setup
+
+Honestly, the vim editor looks slim. But that's because I didn't know about it's different modes. That's the beauty of vim.
+
+### Modes
+
+- Command Mode
+- Insert Mode
+
+### Line Numbers
+
+Where are my line numbers? Simply type the following.
+
+`:set number`
+
+To remove the numbers, you can use this command.
+
+`:set nonumber` 
+
 ## Plugins
 
 Vim, like other text editors, has an ecosystem of plugins. 
