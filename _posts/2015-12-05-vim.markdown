@@ -1,8 +1,8 @@
 ---
-  layout: post
-  title: vim
-  published: true
-  categories:
+layout: post
+title: vim
+published: true
+categories:
 ---
 
 # Vim

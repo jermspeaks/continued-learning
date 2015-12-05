@@ -1,3 +1,10 @@
+---
+layout: post
+title: zsh
+published: false
+categories:
+---
+
 # Zsh
 
 ## Resources
@@ -24,15 +31,15 @@
 #### 1. iTerm
 
 - `ctrl + cmd + t` to hide and show terminal
-	- **tabs**:
-		- new tab: `cmd + t`
-		- toggle through tabs: `shift + cmd + [` or `shift + cmd + ]`
-	- **panes**:
-		- new pane: `shift + opt + cmd + v` for vertical or `shift + opt + cmd + h` for horizontal pane
-		- toggle through panes: `cmd + [` or `cmd + ]`
-		- switch pane with mouse: Preference > Pointer > Miscellaneous Setting > Focus follows Mouse
-	- search with `cmd + f` and `opt + enter` to copy to clipboard
-	- automcomplete for commands in history with `cmd + ;`
+  - **tabs**:
+    - new tab: `cmd + t`
+    - toggle through tabs: `shift + cmd + [` or `shift + cmd + ]`
+  - **panes**:
+    - new pane: `shift + opt + cmd + v` for vertical or `shift + opt + cmd + h` for horizontal pane
+    - toggle through panes: `cmd + [` or `cmd + ]`
+    - switch pane with mouse: Preference > Pointer > Miscellaneous Setting > Focus follows Mouse
+  - search with `cmd + f` and `opt + enter` to copy to clipboard
+  - automcomplete for commands in history with `cmd + ;`
 
 #### 2. zsh
 
