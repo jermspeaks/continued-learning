@@ -11,4 +11,12 @@ defaults:
     values:
       layout: "post"
 
-exclude: ['node_modules', 'package.json', 'README.md', 'book_notes', 'posts', 'topics']       
+exclude: [
+  'node_modules', 
+  'package.json', 
+  'README.md', 
+  'book_notes', 
+  'posts', 
+  'topics',
+  'LICENSE'
+]       
