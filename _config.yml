@@ -16,7 +16,7 @@ exclude: [
   'package.json', 
   'README.md', 
   'book_notes', 
-  'posts', 
   'topics',
-  'LICENSE'
+  'LICENSE',
+  'Rakefile',
 ]       
