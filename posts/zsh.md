@@ -4,6 +4,10 @@
 
 - [dotfiles](https://justin.abrah.ms/dotfiles/zsh.html)
 
+## Oh My Zsh
+
+[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) is an extension of zsh that allows for extensibility on top of Zsh, such as autocompletion, [themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes), and plugins.
+
 # Build Podcast Write-up
 
 [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) is a community driven project for managing zsh configuration. We will explore some functions of [z-shell](http://en.wikipedia.org/wiki/Z_shell) (zsh), [iTerm](http://www.iterm2.com/#/section/home) and Oh My ZSH so that we can get to be a little more productive in our daily coding hours!
