@@ -1,0 +1,14 @@
+name: Continued Learning
+destination: ./_publish
+permalink: /:title
+markdown: redcarpet
+url: http://jermspeaks.github.io/continued-learning
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
+
+exclude: ['node_modules', 'package.json', 'README.md', 'book_notes', 'posts', 'topics']       
