@@ -191,4 +191,4 @@ q
 ## Helpful Resources
 
 - [vim + tmux](https://www.youtube.com/watch?v=5r6yzFEXajQ) - Talk at [OMG!Code](http://code.omahamakergroup.org/) given by [Nick Nisi](http://nicknisi.com/)
-
+- vimtutor - type `vimtutor` in your terminal. Quick lessons summaries can be found on [this post](./vimtutor.md).
