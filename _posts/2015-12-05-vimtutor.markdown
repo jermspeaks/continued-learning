@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vimtutor
-published: false
+published: true
 categories:
 ---
 
