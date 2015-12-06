@@ -11,7 +11,7 @@ This is a review of [Flexbox Froggy](http://flexboxfroggy.com/), a game designed
 
 ```css
 // In your flexbox, you have centered the content horizontally
-// centered with `justify-content` and vertically centered with `align-items`.
+// centered with "justify-content" and vertically centered with "align-items".
 
 .pond {
   justify-content: center;
