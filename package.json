@@ -1,0 +1,25 @@
+{
+  "name": "continued-learning",
+  "version": "0.1.0",
+  "description": "continue to learn",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermspeaks/continued-learning.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "Jeremy Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jermspeaks/continued-learning/issues"
+  },
+  "homepage": "https://github.com/jermspeaks/continued-learning#readme",
+  "dependencies": {
+    "highlight.js": "^9.0.0"
+  }
+}
