@@ -2,6 +2,7 @@
 authors: Jeremy Wong
 name: Continued Learning
 description: website to continue learning
+cdn_path: https://dl.dropboxusercontent.com/u/37155229/continued-learning
 
 # Build Settings
 markdown: redcarpet
