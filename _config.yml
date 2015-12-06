@@ -19,4 +19,7 @@ exclude: [
   'topics',
   'LICENSE',
   'Rakefile',
-]       
+]
+
+sass:
+  sass_dir: _sass
