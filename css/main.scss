@@ -1,13 +1,222 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+/*
+  Styles for jermspeaks.github.io/continued-learning
+  Author: Jeremy Wong
+  Email: jeremy@craftbyzen.com
+*/
+
 
 @charset "utf-8";
 
-// Vendor
+// Imports
+
+// Vendors
 @import "normalize";
+@import "bourbon/bourbon";
+@import "neat/neat";
 @import "pygments";
 
 // layouts
-@import "header";
-@import "layout";
+// @import "header";
+// @import "layout";
+
+
+// Variables
+$color-background: #f6fff8; //rgba(246, 255, 248, 100)
+// $color-primary: #a4c3b2; //rgba(164, 195, 178, 100)
+$color-primary: #333;
+// $color-secondary: #cce3de; //rgba(204, 227, 222, 100)
+$color-secondary: #999;
+$color-emphasis: #cce3de;
+// $color-emphasis: #eaf4f4; //rgba(234, 244, 244, 100)
+$color-heading: #6b9080; //rgba(107, 144, 128, 100)
+
+
+// $color-background:  #f6f3ef;
+// $color-primary:     #333;
+// $color-secondary:   #8c8c8c;
+// $color-emphasis:    #bdedee;
+// $color-heading:     #d4f1ee;
+$font-base:         "freight-text-pro", serif;
+$font-accent:       "brandon-grotesque", sans-serif;
+
+// Mixins
+
+@mixin transition-main {
+  transition-property: border-bottom, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@mixin transition-back {
+  transition-property: background-color, border, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+// Body Border
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+}
+
+body:before, body:after {
+  background-color: darken($color-background, 5%);
+  content: "";
+  height: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+body {
+  border-left: 10px solid darken($color-background, 5%);
+  border-right: 10px solid darken($color-background, 5%);
+}
+
+// Layout
+
+body {
+  background-color: $color-background;
+  color: $color-primary;
+  font-family: $font-base;
+  font-size: 1.8em;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  @media (max-width: 768px) {
+    font-size: 1.6em;
+  }
+  @media (max-width: 380px) {
+    font-size: 1.2em;
+  }
+}
+
+.container {
+  @include span-columns(10);
+  @include shift(1);
+  padding: 2em;
+  @media (max-width: 768px) {
+    @include span-columns(12);
+    @include shift(0);
+  }
+}
+
+.header-wrapper {
+  padding: 1em;
+}
+
+// Typography
+
+h1 {
+  color: $color-primary;
+  font-size: 225%;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 0.5em 0;
+  span {
+    font-weight: 100;
+  }
+}
+
+h2 {
+  border-bottom: 1px solid darken($color-background, 5%);
+  color: $color-secondary;
+  font-family: $font-accent;
+  font-size: 70%;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
+  font-size: 90%;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+h1 + p {
+  font-style: italic;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 90%;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.topics-list {
+  li {
+    font-size: 150%;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 0;
+    span {
+      color: lighten($color-primary, 15%);
+      display: inline-block;
+      font-family: $font-accent;
+      font-size: 50%;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      margin-left: 0.5em;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+  }
+}
+
+blockquote {
+  font-style: italic;
+}
+
+// Anchors
+
+a {
+  @include transition-main;
+  border-bottom: 1px solid darken($color-background, 10%);
+  color: darken($color-emphasis, 50%);
+  text-decoration: none;
+  &:hover {
+    @include transition-main;
+    border-bottom: 1px solid darken($color-background, 20%);
+    color: darken($color-emphasis, 30%);
+  }
+  &.back {
+    @include transition-back;
+    border: 1px solid darken($color-emphasis, 35%);
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    font-family: $font-accent;
+    font-size: 60%;
+    font-weight: 500;
+    margin: 2em 0;
+    padding: 0.6em 1.5em 0.5em 1.5em;
+    text-transform: uppercase;
+    &:hover {
+      @include transition-back;
+      background-color: darken($color-emphasis, 35%);
+      border: 1px solid darken($color-emphasis, 35%);
+      color: $color-background;
+    }
+  }
+}
