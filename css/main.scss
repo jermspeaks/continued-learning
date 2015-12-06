@@ -27,8 +27,7 @@
 $color-background: #f6fff8; //rgba(246, 255, 248, 100)
 // $color-primary: #a4c3b2; //rgba(164, 195, 178, 100)
 $color-primary: #333;
-// $color-secondary: #cce3de; //rgba(204, 227, 222, 100)
-$color-secondary: #999;
+$color-secondary: lighten($color-primary, 10%);
 $color-emphasis: #cce3de;
 // $color-emphasis: #eaf4f4; //rgba(234, 244, 244, 100)
 $color-heading: #6b9080; //rgba(107, 144, 128, 100)
@@ -129,21 +128,24 @@ h1 {
   }
 }
 
-h2 {
-  border-bottom: 1px solid darken($color-background, 5%);
+h2, h3, h4, h5, h6 {
   color: $color-secondary;
   font-family: $font-accent;
-  font-size: 70%;
-  font-weight: 300;
   letter-spacing: 0.1em;
-  margin-bottom: 3em;
-  text-align: right;
-  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 500;
+  border-bottom: 1px solid lighten($color-secondary, 50%);
+}
+
+h3, h4, h5, h6 {
+  font-weight: 300;
 }
 
 p {
   font-weight: 300;
-  font-size: 90%;
+  font-size: 75%;
 }
 
 p:first-of-type {
@@ -159,7 +161,7 @@ ul {
 }
 
 li {
-  font-size: 90%;
+  font-size: 75%;
   margin-bottom: 1em;
   margin-left: 1em;
 }
@@ -219,4 +221,10 @@ a {
       color: $color-background;
     }
   }
+}
+
+// Code
+code {
+  font-family: Hack, monospace;
+  font-size: 0.8em;  
 }
