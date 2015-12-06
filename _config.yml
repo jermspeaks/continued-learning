@@ -25,8 +25,8 @@ exclude: [
 ]
 timezone: UTC
 encoding: utf-8
-baseurl: "" # the subpath of the website
-url: http://jermspeaks.github.io/continued-learning
+baseurl: "http://jermspeaks.github.io/continued-learning/" # the subpath of the website
+url: "http://jermspeaks.github.io/continued-learning"
 gems: []
 sass:
   sass_dir: _sass
