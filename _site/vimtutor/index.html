@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>vimtutor</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" href="/css/main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Let's Learn | vimtutor</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="/continued-learning/css/main.css">
 </head>
 	<body>
-
 		<!--[if lt IE 9]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-		<header class="header">
+<nav class="navbar navbar-default">
+  <div class="nav--container container-fluid">
+    <div class="nav--header navbar-header">
+      <button type="button" class="nav--button navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="nav--brand navbar-brand" href="http://127.0.0.1:4000/continued-learning/">Learn</a>
+    </div>
 
-		</header>
-
-		<div class="post">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="container">
+    	<div class="post">
 	<h1 class="title">vimtutor</h1>
 	<p class="meta">05 Dec 2015</p>
-	<h1>Vim Tutor</h1>
+	<h1 id="vim-tutor">Vim Tutor</h1>
 
 <p>To start with Vim Tutor, simply type <code>vimtutor</code> in your terminal.</p>
 
-<h2>Lesson 1 Summary</h2>
+<h2 id="lesson-1-summary">Lesson 1 Summary</h2>
 
 <ol>
 <li>The cursor is moved using either the arrow keys or the hjkl keys.</li>
@@ -50,7 +66,7 @@ OR type: <code>&lt;ESC&gt;</code> <code>:wq</code> <code>&lt;ENTER&gt;</code> to
 
 <p><strong>NOTE</strong>: Pressing <code>&lt;ESC&gt;</code> will place you in Normal mode or will cancel an unwanted and partially completed command.</p>
 
-<h2>Lesson 2 Summary</h2>
+<h2 id="lesson-2-summary">Lesson 2 Summary</h2>
 
 <ol>
 <li><p>To delete from the cursor up to the next word type: <code>dw</code></p></li>
@@ -77,7 +93,7 @@ OR type: <code>&lt;ESC&gt;</code> <code>:wq</code> <code>&lt;ENTER&gt;</code> to
 <li>To undo the undo&#39;s, type:                 <code>CTRL-R</code></li>
 </ul>
 
-<h2>Lesson 3 Summary</h2>
+<h2 id="lesson-3-summary">Lesson 3 Summary</h2>
 
 <ol>
 <li><p>To put back text that has just been deleted, type <code>p</code> .  This puts the
@@ -92,7 +108,7 @@ the word, <code>c$</code> to change to the end of a line.</p></li>
 </ol>
 <div class="highlight"><pre><code class="language-" data-lang="">  c [number] motion
 </code></pre></div>
-<h2>Lesson 4 Summary</h2>
+<h2 id="lesson-4-summary">Lesson 4 Summary</h2>
 
 <ol>
 <li><code>CTRL-G</code>  displays your location in the file and the file status.</li>
@@ -129,7 +145,7 @@ the word, <code>c$</code> to change to the end of a line.</p></li>
 <li>To ask for confirmation each time add <strong>c</strong> <code>:%s/old/new/gc</code></li>
 </ul>
 
-<h2>Lesson 5 Summary</h2>
+<h2 id="lesson-5-summary">Lesson 5 Summary</h2>
 
 <ol>
 <li><code>:!command</code> executes an external command.</li>
@@ -137,10 +153,24 @@ the word, <code>c$</code> to change to the end of a line.</p></li>
 
 <p>Some useful examples are:</p>
 
-<p>| (MS-DOS)         | (Unix)          | description               |
-  |------------------|-----------------|---------------------------|
-  | <code>:!dir</code>          | <code>:!ls</code>          | shows a directory listing |
-  | <code>:!del FILENAME</code> | <code>:!rm FILENAME</code> | removes file FILENAME     |</p>
+<table><thead>
+<tr>
+<th>(MS-DOS)</th>
+<th>(Unix)</th>
+<th>description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>:!dir</code></td>
+<td><code>:!ls</code></td>
+<td>shows a directory listing</td>
+</tr>
+<tr>
+<td><code>:!del FILENAME</code></td>
+<td><code>:!rm FILENAME</code></td>
+<td>removes file FILENAME</td>
+</tr>
+</tbody></table>
 
 <ol>
 <li><p><code>:w FILENAME</code> writes the current Vim file to disk with name <strong>FILENAME</strong>.</p></li>
@@ -149,7 +179,7 @@ the word, <code>c$</code> to change to the end of a line.</p></li>
 <li><p><code>:r !dir</code> reads the output of the dir command and puts it below the cursor position.</p></li>
 </ol>
 
-<h2>Lesson 6 Summary</h2>
+<h2 id="lesson-6-summary">Lesson 6 Summary</h2>
 
 <ol>
 <li>Open a line in insert mode</li>
@@ -188,7 +218,7 @@ the word, <code>c$</code> to change to the end of a line.</p></li>
 <li>Prepend <code>no</code> to switch an option off: <code>:set noic</code></li>
 </ol>
 
-<h2>Lesson 7 Summary</h2>
+<h2 id="lesson-7-summary">Lesson 7 Summary</h2>
 
 <ol>
 <li><p>Type <code>:help</code> or press <code>&lt;F1&gt;</code> or <code>&lt;Help&gt;</code> to open a help window.</p></li>
@@ -201,14 +231,19 @@ the word, <code>c$</code> to change to the end of a line.</p></li>
 
 </div>
 
+    </div>
 
-		<footer class="footer">
-			<ul class="pages">
-				<li><a href="/about" title="About Build Podcast">About</a></li>
-				<li><a href="/topics" title="Topics chosen to learn">Topics</a></li>
-			</ul>
-		</footer>
+		<!-- Vendor CDN: Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-		<!-- <script src="js/script.js"></script> -->
+<!-- Our own script -->
+<script src="/continued-learning/js/script.js"></script>
+
+<footer class="footer">
+  <ul class="pages">
+    <li><a href="/about" title="About Build Podcast">About</a></li>
+    <li><a href="/topics" title="Topics chosen to learn">Topics</a></li>
+  </ul>
+</footer>
 	</body>
 </html>

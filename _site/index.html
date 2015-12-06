@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Continued Learning for Tech Tools</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" href="/css/main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Let's Learn | Continued Learning for Tech Tools</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="/continued-learning/css/main.css">
 </head>
 	<body>
-
 		<!--[if lt IE 9]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-		<header class="header">
+<nav class="navbar navbar-default">
+  <div class="nav--container container-fluid">
+    <div class="nav--header navbar-header">
+      <button type="button" class="nav--button navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="nav--brand navbar-brand" href="http://127.0.0.1:4000/continued-learning/">Learn</a>
+    </div>
 
-		</header>
-
-		<section class="landing">
-	<h1>Learning: A Journey Continued</h1>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="container">
+    	<section class="landing">
 	<p>Those who think learning happens in school is mistaken. A good chunk of learning happens outside the classroom</p>
 	<p>This website is to help with learning new tools and topics.</p>
 	<p>Everything I want to learn will include posts, links, and images explaining what I have learned<p>
@@ -28,51 +43,28 @@
 <ul class="list">
   
     <li class="searchable" data-index="">
-      <a href="http://jermspeaks.github.io/continued-learning/zsh/">
-        <span class="name">zsh</span>
+      <a href="http://127.0.0.1:4000/continued-learning/vimtutor/">
+        <span class="name">vimtutor</span>
       </a>
       
         <span class="latest">&rarr; latest: Dec 05 2015</span>
       
     </li>
   
-    <li class="searchable" data-index="">
-      <a href="http://jermspeaks.github.io/continued-learning/vimtutor/">
-        <span class="name">vimtutor</span>
-      </a>
-      
-    </li>
-  
-    <li class="searchable" data-index="">
-      <a href="http://jermspeaks.github.io/continued-learning/vim/">
-        <span class="name">vim</span>
-      </a>
-      
-    </li>
-  
-    <li class="searchable" data-index="">
-      <a href="http://jermspeaks.github.io/continued-learning/tmux/">
-        <span class="name">tmux</span>
-      </a>
-      
-    </li>
-  
-    <li class="searchable" data-index="">
-      <a href="http://jermspeaks.github.io/continued-learning/flexbox-challenge/">
-        <span class="name">Flexbox Challenge</span>
-      </a>
-      
-    </li>
-  
 </ul>
+    </div>
 
-		<footer class="footer">
-			<ul class="pages">
-				<li><a href="/about" title="About Build Podcast">About</a></li>
-				<li><a href="/topics" title="Topics chosen to learn">Topics</a></li>
-			</ul>
-		</footer>
+		<!-- Vendor CDN: Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-		<!-- <script src="js/script.js"></script> -->
+<!-- Our own script -->
+<script src="/continued-learning/js/script.js"></script>
+
+<footer class="footer">
+  <ul class="pages">
+    <li><a href="/about" title="About Build Podcast">About</a></li>
+    <li><a href="/topics" title="Topics chosen to learn">Topics</a></li>
+  </ul>
+</footer>
 	</body>
 </html>

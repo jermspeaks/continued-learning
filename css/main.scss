@@ -4,5 +4,10 @@
 
 @charset "utf-8";
 
-@import "layout";
+// Vendor
+@import "normalize";
 @import "pygments";
+
+// layouts
+@import "header";
+@import "layout";
