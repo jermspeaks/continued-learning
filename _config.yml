@@ -1,0 +1,33 @@
+# Site Information
+authors: Jeremy Wong
+name: Continued Learning
+description: website to continue learning
+
+# Build Settings
+markdown: redcarpet
+redcarpet:
+  extensions: [
+    "no_intra_emphasis",
+    "fenced_code_blocks",
+    "autolink",
+    "tables",
+    "with_toc_data"
+  ]
+permalink: /:title/
+exclude: [
+  'node_modules',
+  'package.json',
+  'README.md',
+  'book_notes',
+  'topics',
+  'LICENSE',
+  'Rakefile',
+]
+timezone: UTC
+encoding: utf-8
+baseurl: "http://jermspeaks.github.io/continued-learning" # the subpath of the website
+url: "http://jermspeaks.github.io/continued-learning"
+gems: []
+sass:
+  sass_dir: _sass
+  style: compressed

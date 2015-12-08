@@ -1,20 +1,16 @@
-<DOCTYPE html>
-<head>
-	<title>Continued Learning</title>
-</head>
-<body>
-	<header>
-		<div class="container">
-			<nav>
-				<ul>
-					<li>
-						<a href="#" class="nav--link">Home</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<section class="topics">
-		<span class="placeholder">Topics to go here</span>
-	</section>
-</body>
+---
+layout: default
+title: Continued Learning for Tech Tools
+---
+
+<h1>Topic Deep Dive</h1>
+
+<p>This website is to help with learning new tools and topics. Everything I want to learn will include posts, links, and images explaining what I have learned.</p>
+
+<ul class="topics-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span>
+    </li>
+  {% endfor %}
+</ul>
