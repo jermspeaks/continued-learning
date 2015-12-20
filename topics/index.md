@@ -15,6 +15,7 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 * [Learn you node](https://github.com/workshopper/learnyounode) - from [nodeschool](http://nodeschool.io/#workshoppers)
 * [More on Vim](http://build-podcast.com/vim/) - from [build podcast](http://build-podcast.com/)
 * [Angular 2](https://angular.io/docs/ts/latest/quickstart.html)
+* [Relay with GraphQL](https://facebook.github.io/relay/)
 
 ## Past Topics
 
