@@ -16,6 +16,9 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 * [More on Vim](http://build-podcast.com/vim/) - from [build podcast](http://build-podcast.com/)
 * [Angular 2](https://angular.io/docs/ts/latest/quickstart.html)
 * [Relay with GraphQL](https://facebook.github.io/relay/)
+* [BotWiki](https://botwiki.org/tutorials/)
+* [Polymer](https://egghead.io/series/creating-custom-web-elements-with-polymer)
+* [Angular 2](https://angular.io/)
 
 ## Past Topics
 
