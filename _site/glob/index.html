@@ -1,0 +1,42 @@
+<h1 id="what-the-glob">What the glob?</h1>
+
+<p>I ran across the <a href="https://github.com/isaacs/node-glob">node-glob</a> and realized I didn&#39;t know what a glob is. I read through the node-glob documentation and found out globs are a form of pattern matching. I realized I had been using globs for a long time, like the wildcard notation, without knowing its name.</p>
+
+<p><img src="https://github.com/isaacs/node-glob/blob/master/oh-my-glob.gif" alt="adventure time glob"></p>
+
+<h2 id="wildcards">Wildcards</h2>
+
+<p>There are generally two wildcards you can use for glob functions. </p>
+
+<ol>
+<li><code>*</code> - &quot;any string of characters&quot;</li>
+<li><code>?</code> - one character</li>
+</ol>
+
+<p>There are also brackets, where the character must be one of the following, or given as a range.</p>
+
+<ol>
+<li><code>[abc]</code> - one of &quot;a&quot;, &quot;b&quot;, or &quot;c&quot;</li>
+<li><code>[a-z]</code> - between the range of &quot;a&quot; to &quot;z&quot;.</li>
+</ol>
+
+<p>You can also line this up with a &quot;!&quot; to mean not in the following bracket.</p>
+
+<ol>
+<li><code>[!abc]</code> - not one of &quot;a&quot;, &quot;b&quot;, or &quot;c&quot;</li>
+<li><code>[!a-z]</code> - not in the range of &quot;a&quot; to &quot;z&quot;</li>
+</ol>
+
+<p>The examples above are used in UNIX-based systems. These commands are slightly different in Window&#39;s Powershell and SQL. For more information about those systems, you can read <a href="https://en.wikipedia.org/wiki/Glob_(programming)">the Wikipedia article</a> about globs. </p>
+
+<h2 id="node-example">Node Example</h2>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">glob</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">"glob"</span><span class="p">)</span>
+
+<span class="c1">// options is optional</span>
+<span class="nx">glob</span><span class="p">(</span><span class="s2">"**/*.js"</span><span class="p">,</span> <span class="nx">options</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">er</span><span class="p">,</span> <span class="nx">files</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// files is an array of filenames.</span>
+    <span class="c1">// If the `nonull` option is set, and nothing</span>
+    <span class="c1">// was found, then files is ["**/*.js"]</span>
+    <span class="c1">// er is an error object or null.</span>
+<span class="p">})</span>
+</code></pre></div>
