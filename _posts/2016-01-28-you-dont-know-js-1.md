@@ -205,4 +205,22 @@ foo();
 
 > The most common usage of closure in Javascript is the module pattern. Modules let you define private implementation details (variables, functions) that are hidden from the outside world, as well as a public API that is accessible from the outside.
 
-* We aren't calling `new Module` with modules. 
+* Executing the module as a function creates an instance of that module. 
+* The `this` operator reference depends on how the function is called. That will determine what `this` is. There are four rules of how `this` gets set. More on this later in the `this & Object Prototype` book. 
+* Prototype links allow one object to delegate properties from another object. What this means is a property prototype linked is not attached to that object but to its original object (which could in turn, just be the __proto__ property of Object).
+* Do not think of applying prototypes as inheritance. It follows a pattern called "behavior delegation", delegating one part of an object to another.
+* Bring the old to new with **polyfiling** and **transpiling**.
+  * A "polyfill" is to take a definition of a newer feature and produce a piece of code equivalent to the behavior for older JS environments.
+    * An example is [lodash](https://lodash.com/) that has a bunch of features from ES5 and ES6 which some frameworks utilize, like `forEach` and `map`.
+  * Careful writing your own polyfill as you should adhere closely to the specification.
+  * Better yet, use the vetted ones.
+  * Transpiling is great for new syntax. It is a tool that converts your code to older coding environments. You can break down the word "transpiling" into transforming + compiling.
+* `arguments` can be used functions to determine which arguments were passed in. It is not a reserved word, so you can assign it to a different value. When calling it, it outputs an array.
+* The book series doesn't cover Non-Javascript, like the DOM API. But you need to be aware of it. DOM API could actually be written by the browsers in **C/C++**.
+* The `document` object is a "host object", a special object that has been implemented by the browser.
+
+### Chapter 3: Into YDKJS
+
+This chapter is a preface to the other books. I'll skip these notes as I'll be covering this in more detail in those posts.
+
+See you next time!
