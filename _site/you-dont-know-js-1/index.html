@@ -309,8 +309,29 @@
 </blockquote>
 
 <ul>
-<li>We aren&#39;t calling <code>new Module</code> with modules. </li>
+<li>Executing the module as a function creates an instance of that module. </li>
+<li>The <code>this</code> operator reference depends on how the function is called. That will determine what <code>this</code> is. There are four rules of how <code>this</code> gets set. More on this later in the <code>this &amp; Object Prototype</code> book. </li>
+<li>Prototype links allow one object to delegate properties from another object. What this means is a property prototype linked is not attached to that object but to its original object (which could in turn, just be the <strong>proto</strong> property of Object).</li>
+<li>Do not think of applying prototypes as inheritance. It follows a pattern called &quot;behavior delegation&quot;, delegating one part of an object to another.</li>
+<li>Bring the old to new with <strong>polyfiling</strong> and <strong>transpiling</strong>.
+
+<ul>
+<li>A &quot;polyfill&quot; is to take a definition of a newer feature and produce a piece of code equivalent to the behavior for older JS environments.</li>
+<li>An example is <a href="https://lodash.com/">lodash</a> that has a bunch of features from ES5 and ES6 which some frameworks utilize, like <code>forEach</code> and <code>map</code>.</li>
+<li>Careful writing your own polyfill as you should adhere closely to the specification.</li>
+<li>Better yet, use the vetted ones.</li>
+<li>Transpiling is great for new syntax. It is a tool that converts your code to older coding environments. You can break down the word &quot;transpiling&quot; into transforming + compiling.</li>
+</ul></li>
+<li><code>arguments</code> can be used functions to determine which arguments were passed in. It is not a reserved word, so you can assign it to a different value. When calling it, it outputs an array.</li>
+<li>The book series doesn&#39;t cover Non-Javascript, like the DOM API. But you need to be aware of it. DOM API could actually be written by the browsers in <strong>C/C++</strong>.</li>
+<li>The <code>document</code> object is a &quot;host object&quot;, a special object that has been implemented by the browser.</li>
 </ul>
+
+<h3 id="chapter-3-into-ydkjs">Chapter 3: Into YDKJS</h3>
+
+<p>This chapter is a preface to the other books. I&#39;ll skip these notes as I&#39;ll be covering this in more detail in those posts.</p>
+
+<p>See you next time!</p>
 
 	
   <h3 class="update-date">Last Updated 28 January 2016</h3>
