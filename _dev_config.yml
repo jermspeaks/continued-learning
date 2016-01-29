@@ -26,9 +26,10 @@ exclude: [
 ]
 timezone: UTC
 encoding: utf-8
-baseurl: "/continued-learning/" # the subpath of the website
+baseurl: "/continued-learning" # the subpath of the website
 url: http://127.0.0.1:4000
 gems: []
 sass:
   sass_dir: _sass
   style: compressed
+destination: _site
