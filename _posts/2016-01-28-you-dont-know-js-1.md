@@ -8,7 +8,7 @@ categories: javascript
 # You Don't Know JS
 ## Pt. 1 - Up & Going
 
-### Preface
+### Reader Note
 
 I've been a Javascript developer for the past year and a half. By reading the "You don't Know Javascript" series, I'm hoping to hone my vanilla Javascript skills and have a deeper knowledge of the language.
 
