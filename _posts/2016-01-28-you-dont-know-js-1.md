@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You Don't Know JS - Pt. 1 - Up & Going"
+title: "YDKJS Part 1: Up & Going"
 published: true
 categories: javascript
 ---
