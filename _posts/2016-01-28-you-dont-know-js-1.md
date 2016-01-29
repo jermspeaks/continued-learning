@@ -202,3 +202,7 @@ foo();
 * **Closure** is a way to "remember" and continue to access a function's scope.
   * I think of this as a way to tweak functions without having to write out more functions.
   * This is least understood by JS developers, and I think I know why. To me, it's a function generator, although that's an improper term because Javascript can create a generator function, which is a totally different topic.
+
+> The most common usage of closure in Javascript is the module pattern. Modules let you define private implementation details (variables, functions) that are hidden from the outside world, as well as a public API that is accessible from the outside.
+
+* We aren't calling `new Module` with modules. 
