@@ -12,11 +12,54 @@
 
 ### dir. Katsuhiro Otomo
 
-* Akira
+* [Akira](http://www.imdb.com/title/tt0094625) (1988)
 
-### dir. 
+### dir. John Ford
 
-## 250 films from /r/criterion
+* [Stagecoach](http://www.imdb.com/title/tt0031971) (1939)
+* [My Darling Clementine](http://www.imdb.com/title/tt0038762) (1946)
+* [The Searchers](http://www.imdb.com/title/tt0049730) (1956)
+
+### dir. Jean Renior
+
+* [La Grande Illusion](http://www.imdb.com/title/tt0028950) (1937)
+* [La règle du jeu](http://www.imdb.com/title/tt0031885) (1939)
+* [Elena et les hommes](http://www.imdb.com/title/tt0049177) (1956)
+
+### dir. Akira Kurasawa
+
+* [Stray Dog](http://www.imdb.com/title/tt0041699) (1949)
+* [Rashomon](http://www.imdb.com/title/tt0042876) (1950)
+* [Seven Samurai](http://www.imdb.com/title/tt0047478) (1954)
+* [High and Low](http://www.imdb.com/title/tt0057565) (1963)
+* [Ran](http://www.imdb.com/title/tt0089881) (1985)
+
+### dir. Ingmar Bergman
+
+* [The Seventh Seal](http://www.imdb.com/title/tt0050976) (1958) 
+* [Persona](http://www.imdb.com/title/tt0060827) (1966)
+
+### dir. Ford Francis Coppola
+
+* [The Rain People](http://www.imdb.com/title/tt0064873) (1969)
+* [The Godfather](http://www.imdb.com/title/tt0068646) (1972)
+* [The Conversation](http://www.imdb.com/title/tt0071360) (1974)
+* [The Godfather: Part II](http://www.imdb.com/title/tt0071562) (1974)
+* [Peggy Sue Got Married](http://www.imdb.com/title/tt0091738) (1986)
+
+### dir. Wes Anderson
+
+* [The Royal Tenenbaums](http://www.imdb.com/title/tt0265666) (2001)
+* [The Life Aquatic with Steve Zissou](http://www.imdb.com/title/tt0362270) (2004)
+
+### dir. Alfred Hitchcock
+
+* [Saboteur](http://www.imdb.com/title/tt0035279) (1942)
+* [Vertigo](http://www.imdb.com/title/tt0052357) (1958)
+* [Psycho](http://www.imdb.com/title/tt0054215) (1960)
+* [Marnie](http://www.imdb.com/title/tt0058329) (1964)
+
+## 250 films from `/r/criterion`
 
 1. Persona
 1. 2001: A Space Odyssey
