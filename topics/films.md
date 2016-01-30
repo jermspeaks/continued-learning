@@ -311,3 +311,38 @@
 1. You Can't Take It with You
 1. Drive
 1. WALL·E
+
+# ... https://www.reddit.com/r/criterion/comments/41c3u3/500_film_journey_help/
+
+- Federico Fellini (La Dolce Vita, 8½, Amarcord, Nights of Cabiria)
+- Francis Ford Copolla (Apocalypse Now, Godfather 1&2, Conversation)
+- Martin Scorsese (Raging Bull, Goodfellas, Taxi Driver, Departed, Aviator)
+- Terry Gilliam (Brazil, Fisher King, Fear and Loathing in Las Vegas)
+- Alfred Hitchcock (North By Northwest, Strangers on a Train, Rear Window, Psycho, Vertigo)
+- Charlie Chaplin (The Kid, The Gold Rush, City Lights, Modern Times)
+- Mel Brooks (The Producers, Spaceballs, Blazing Saddles, Young Frankenstein, Silent Movie)
+- Woody Allen (Annie Hall, Manhattan, Hannah and Her Sisters, Radio Days, Midnight in Paris)
+- Wes Anderson (Fantastic Mr. Fox, Grand Budapest Hotel, Rushmore, Royal Tenenbaums)
+- Edgar Wright (Shaun of the Dead, Hot Fuzz, World's End, Scott Pilgrim vs. The World)
+- Stanley Kubrick (2001: A Space Odyssey, Dr. Strangelove, Clockwork Orange, Shining, Paths of Glory, Full Metal Jacket)
+- Coen Brothers (Fargo, Big Lebowski, No Country for Old Men, Blood Simple, Serious Man)
+- Billy Wilder (Apartment, Some Like it Hot, Witness for the Prosecution)
+- Paul Thomas Anderson (Punch-Drunk Love, There Will Be Blood, Boogie Nights)
+- Richard Linklater (Dazed and Confused, Before Trilogy, Boyhood)
+- Akira Kurosawa (Ikiru, Hidden Fortress, Rashomon)
+- Elia Kazan (On the Waterfront, East of Eden, Streetcar Named Desire)
+- David Fincher (Social Network, Zodiac, Se7en, Fight Club)
+- Orson Welles (Touch of Evil, Citizen Kane)
+- Terrence Malick (Thin Red Line, Days of Heaven, Badlands)
+- David Lean (Lawrence of Arabia, Bridge on the River Kwai)
+- Bob Fosse (Lenny, Cabaret)
+- Quentin Tarantino (Pulp Fiction, Reservoir Dogs, Jackie Brown, Kill Bill)
+- Steven Spielberg (Raiders of the Lost Ark, Schindler's List, Jaws, Close Encounters of the Third Kind)
+- Ridley Scott (Blade Runner, Alien)
+- Misc: Children of Men, 400 Blows, Red Shoes, Singin' in the Rain, Persona, American Beauty, All the President's Men, Birdman, Roman Holiday, Animal House, Trainspotting, Carrie, Pan's Labyrinth, Grand Illusion, Usual Suspects, Spirited Away, Network, Fugitive, Night of the Hunter, Frances Ha, Eternal Sunshine of the Spotless Mind, Her, Capote, Tootsie, Dollars Trilogy, Whiplash, Butch Cassidy and the Sundance Kid, Amelie, Field of Dreams
+
+
+# Others
+
+- http://explore.bfi.org.uk/sightandsoundpolls/2012
+- http://www.afi.com/100years/movies10.aspx
