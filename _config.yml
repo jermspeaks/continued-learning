@@ -32,3 +32,17 @@ gems: []
 sass:
   sass_dir: _sass
   style: compressed
+post:
+  template: _templates/post.md
+  extension: md
+page:
+  template: _layouts/default.html
+  extension: html
+editor: Sublime Editor 2
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/jermspeaks.github.com/
