@@ -4,3 +4,4 @@ Here you will find exercises, tutorials, games, and challenges that I am in the 
 
 * [Flexbox Froggy](https://github.com/thomaspark/flexboxfroggy/) - Stopped at Challenge #9
   * [Write up](../posts/flexbox_challenge.md)
+* [Elm Tutorial](https://github.com/evancz/elm-architecture-tutorial/)
