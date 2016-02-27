@@ -6,6 +6,7 @@ categories: javascript
 ---
 
 # You Don't Know JS
+
 ## Pt. 1 - Up & Going
 
 ### Reader Note
@@ -44,7 +45,7 @@ In Up & Going, I'm hoping to review the basics and understand more deeply why th
   * Shift assignments `x <<= y`
     * Shift bits left or right by a certain amount. The above example shifts bits to the left.
   * Bitwise assignments `x &= y` or `x = x & y`
-    * The above example pertains to bits, using an AND logic. 
+    * The above example pertains to bits, using an AND logic.
 
 #### AND logic table
 
@@ -91,7 +92,7 @@ do {
   1. The update clause
 
 * Reusable pieces of code can be gathered into a *function*
-* The *lexical scope*, or *scope*, is the programming term to tell us where our variables can be accessed. 
+* The *lexical scope*, or *scope*, is the programming term to tell us where our variables can be accessed.
 
 ```js
 function outer() {
@@ -124,7 +125,7 @@ In the example, you can't call `inner();` on the outermost scope. It can only be
 * No value set type is `undefined`.
 * I didn't know `null` is an object type. Weird bug probably will never get fixed.
 
-> `typeof null` is an interesting case, because it errantly returns "object", when you'd expect it to return "null". 
+> `typeof null` is an interesting case, because it errantly returns "object", when you'd expect it to return "null".
 
 * To learn: Javascript's `symbols`. I'm well aware of **Ruby's** implementation of symbols like `:symbol_example`, which are used in many different contexts like classes. Will elaborate more on this in the ES6 portion.
 * Arrays and functions are subtypes to objects. In my introduction to JS, I assumed "everything is an object".
@@ -148,7 +149,7 @@ In the example, you can't call `inner();` on the outermost scope. It can only be
 * `==` checks for value equality. Coercion allowed.
 * `===` checks for value and type equality. Coercion not allowed. Also known as `strict equality`
 
-Some simple rules for equality of when to use `==` or `===`. 
+Some simple rules for equality of when to use `==` or `===`.
 
 > If either value (aka side) in a comparison could be the true or false value, avoid == and use ===.
 
@@ -188,8 +189,8 @@ foo();
 ```
 
 * `Strict mode` was introduced in **ES5**. Noted with `"use strict"`.
-* Strict mode disallows implicit auto-global variable declaration from omitting the `var`. 
-* I feel computer science needs to put unnecessarily long titles to items. **Immediately invoked function expressions (IIFE)** are involved upon declaration. 
+* Strict mode disallows implicit auto-global variable declaration from omitting the `var`.
+* I feel computer science needs to put unnecessarily long titles to items. **Immediately invoked function expressions (IIFE)** are involved upon declaration.
 
 ```js
 (function IIFE(){
@@ -205,8 +206,8 @@ foo();
 
 > The most common usage of closure in Javascript is the module pattern. Modules let you define private implementation details (variables, functions) that are hidden from the outside world, as well as a public API that is accessible from the outside.
 
-* Executing the module as a function creates an instance of that module. 
-* The `this` operator reference depends on how the function is called. That will determine what `this` is. There are four rules of how `this` gets set. More on this later in the `this & Object Prototype` book. 
+* Executing the module as a function creates an instance of that module.
+* The `this` operator reference depends on how the function is called. That will determine what `this` is. There are four rules of how `this` gets set. More on this later in the `this & Object Prototype` book.
 * Prototype links allow one object to delegate properties from another object. What this means is a property prototype linked is not attached to that object but to its original object (which could in turn, just be the __proto__ property of Object).
 * Do not think of applying prototypes as inheritance. It follows a pattern called "behavior delegation", delegating one part of an object to another.
 * Bring the old to new with **polyfiling** and **transpiling**.

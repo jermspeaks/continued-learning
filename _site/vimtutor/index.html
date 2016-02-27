@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Raleway:300,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
-  <link rel="stylesheet" href="http://jermspeaks.github.io/continued-learning/css/main.css">
+  <link rel="stylesheet" href="/continued-learning/css/main.css">
 </head>
 	<body>
 		<!--[if lt IE 9]>
@@ -17,224 +17,298 @@
 
     <div class="container">
     	<div class="post">
-
+  
   <h1 id="vim-tutor">Vim Tutor</h1>
 
 <p>Vim tutor is a great guide to get you started with vim.</p>
 
 <h2 id="getting-started">Getting Started</h2>
 
-<p>To start with Vim Tutor, simply type <code>vimtutor</code> in your terminal.</p>
+<p>To start with Vim Tutor, simply type <code class="highlighter-rouge">vimtutor</code> in your terminal.</p>
 
 <p><img src="https://dl.dropboxusercontent.com/u/37155229/continued-learning/assets/vimtutor.gif" /></p>
 
 <p>The tutorial says it should take about 25 to 30 minutes, but because I was also messing around with writing up this post and including their lesson summaries, all trying to use vim, I spend a bit longer with it.</p>
 
-<p>If you&#39;re running low on time, I&#39;d say do each lesson in a 5 to 10 minute window span each day. You&#39;re allowed to take it slow.</p>
+<p>If you’re running low on time, I’d say do each lesson in a 5 to 10 minute window span each day. You’re allowed to take it slow.</p>
 
-<p>I learned it&#39;s about the journey, not about the speed in which it takes for you to pick it up. It&#39;s there where you can start nitpicking on how to do &quot;x&quot; or &quot;y&quot;.</p>
+<p>I learned it’s about the journey, not about the speed in which it takes for you to pick it up. It’s there where you can start nitpicking on how to do “x” or “y”.</p>
 
 <p>The next following sections are summaries of what vim tutor teaches you. I modified some of the summaries to best fit markdown format.</p>
 
 <h2 id="lesson-1-summary">Lesson 1 Summary</h2>
 
 <ol>
-<li>The cursor is moved using either the arrow keys or the hjkl keys.</li>
+  <li>The cursor is moved using either the arrow keys or the hjkl keys.</li>
 </ol>
 
 <ul>
-<li><code>h</code> (left)</li>
-<li><code>j</code> (down)</li>
-<li><code>k</code> (up)</li>
-<li><code>l</code> (right)</li>
+  <li><code class="highlighter-rouge">h</code> (left)</li>
+  <li><code class="highlighter-rouge">j</code> (down)</li>
+  <li><code class="highlighter-rouge">k</code> (up)</li>
+  <li><code class="highlighter-rouge">l</code> (right)</li>
 </ul>
 
 <ol>
-<li><p>To start Vim from the shell prompt type: <code>vim FILENAME &lt;ENTER&gt;</code></p></li>
-<li><p>To exit Vim type: <code>&lt;ESC&gt;</code> <code>:q!</code> <code>&lt;ENTER&gt;</code> to trash all changes.
-OR type: <code>&lt;ESC&gt;</code> <code>:wq</code> <code>&lt;ENTER&gt;</code> to save the changes.</p></li>
-<li><p>To delete the character at the cursor type: <code>x</code></p></li>
-<li><p>To insert or append text type:
-<code>i</code>   type inserted text   <code>&lt;ESC&gt;</code>    insert before the cursor
-<code>A</code>   type appended text   <code>&lt;ESC&gt;</code>    append after the line</p></li>
+  <li>
+    <p>To start Vim from the shell prompt type: <code class="highlighter-rouge">vim FILENAME &lt;ENTER&gt;</code></p>
+  </li>
+  <li>
+    <p>To exit Vim type: <code class="highlighter-rouge">&lt;ESC&gt;</code> <code class="highlighter-rouge">:q!</code> <code class="highlighter-rouge">&lt;ENTER&gt;</code> to trash all changes.
+  OR type: <code class="highlighter-rouge">&lt;ESC&gt;</code> <code class="highlighter-rouge">:wq</code> <code class="highlighter-rouge">&lt;ENTER&gt;</code> to save the changes.</p>
+  </li>
+  <li>
+    <p>To delete the character at the cursor type: <code class="highlighter-rouge">x</code></p>
+  </li>
+  <li>
+    <p>To insert or append text type:
+  <code class="highlighter-rouge">i</code>   type inserted text   <code class="highlighter-rouge">&lt;ESC&gt;</code>    insert before the cursor
+  <code class="highlighter-rouge">A</code>   type appended text   <code class="highlighter-rouge">&lt;ESC&gt;</code>    append after the line</p>
+  </li>
 </ol>
 
-<p><strong>NOTE</strong>: Pressing <code>&lt;ESC&gt;</code> will place you in Normal mode or will cancel an unwanted and partially completed command.</p>
+<p><strong>NOTE</strong>: Pressing <code class="highlighter-rouge">&lt;ESC&gt;</code> will place you in Normal mode or will cancel an unwanted and partially completed command.</p>
 
 <h2 id="lesson-2-summary">Lesson 2 Summary</h2>
 
 <ol>
-<li><p>To delete from the cursor up to the next word type: <code>dw</code></p></li>
-<li><p>To delete from the cursor to the end of a line type: <code>d$</code></p></li>
-<li><p>To delete a whole line type: <code>dd</code></p></li>
-<li><p>To repeat a motion prepend it with a number: <code>2w</code></p></li>
-<li><p>The format for a change command is:</p></li>
+  <li>
+    <p>To delete from the cursor up to the next word type: <code class="highlighter-rouge">dw</code></p>
+  </li>
+  <li>
+    <p>To delete from the cursor to the end of a line type: <code class="highlighter-rouge">d$</code></p>
+  </li>
+  <li>
+    <p>To delete a whole line type: <code class="highlighter-rouge">dd</code></p>
+  </li>
+  <li>
+    <p>To repeat a motion prepend it with a number: <code class="highlighter-rouge">2w</code></p>
+  </li>
+  <li>
+    <p>The format for a change command is:</p>
+  </li>
 </ol>
-<div class="highlight"><pre><code class="language-" data-lang="">  operator [number] motion
-</code></pre></div>
+
+<p><code class="highlighter-rouge">
+  operator [number] motion
+ </code></p>
+
 <p>where:</p>
-<div class="highlight"><pre><code class="language-" data-lang="">- **operator** - is what to do, such as  d  for delete
+
+<div class="highlighter-rouge"><pre class="highlight"><code>- **operator** - is what to do, such as  d  for delete
 - **[number]** - is an optional count to repeat the motion
 - **motion**   - moves over the text to operate on, such as  w (word), (to the end of line), etc.
-</code></pre></div>
+</code></pre>
+</div>
+
 <ol>
-<li><p>To move to the start of the line use a zero: <code>0</code></p></li>
-<li><p>Undo &amp; redo actions</p></li>
+  <li>
+    <p>To move to the start of the line use a zero: <code class="highlighter-rouge">0</code></p>
+  </li>
+  <li>
+    <p>Undo &amp; redo actions</p>
+  </li>
 </ol>
 
 <ul>
-<li>To undo previous actions, type:            <code>u</code>  (lowercase u)</li>
-<li>To undo all the changes on a line, type:  <code>U</code>  (capital U)</li>
-<li>To undo the undo&#39;s, type:                 <code>CTRL-R</code></li>
+  <li>To undo previous actions, type:            <code class="highlighter-rouge">u</code>  (lowercase u)</li>
+  <li>To undo all the changes on a line, type:  <code class="highlighter-rouge">U</code>  (capital U)</li>
+  <li>To undo the undo’s, type:                 <code class="highlighter-rouge">CTRL-R</code></li>
 </ul>
 
 <h2 id="lesson-3-summary">Lesson 3 Summary</h2>
 
 <ol>
-<li><p>To put back text that has just been deleted, type <code>p</code> .  This puts the
+  <li>
+    <p>To put back text that has just been deleted, type <code class="highlighter-rouge">p</code> .  This puts the
 deleted text <strong>AFTER</strong> the cursor (if a line was deleted it will go on the
-line below the cursor).</p></li>
-<li><p>To replace the character under the cursor, type <code>r</code> and then the
-character you want to have there.</p></li>
-<li><p>The change operator allows you to change from the cursor to where the
-motion takes you. eg. Type <code>ce</code> to change from the cursor to the end of
-the word, <code>c$</code> to change to the end of a line.</p></li>
-<li><p>The format for change is:</p></li>
+line below the cursor).</p>
+  </li>
+  <li>
+    <p>To replace the character under the cursor, type <code class="highlighter-rouge">r</code> and then the
+character you want to have there.</p>
+  </li>
+  <li>
+    <p>The change operator allows you to change from the cursor to where the
+motion takes you. eg. Type <code class="highlighter-rouge">ce</code> to change from the cursor to the end of
+the word, <code class="highlighter-rouge">c$</code> to change to the end of a line.</p>
+  </li>
+  <li>
+    <p>The format for change is:</p>
+  </li>
 </ol>
-<div class="highlight"><pre><code class="language-" data-lang="">  c [number] motion
-</code></pre></div>
+
+<p><code class="highlighter-rouge">
+  c [number] motion
+ </code></p>
+
 <h2 id="lesson-4-summary">Lesson 4 Summary</h2>
 
 <ol>
-<li><code>CTRL-G</code>  displays your location in the file and the file status.</li>
+  <li><code class="highlighter-rouge">CTRL-G</code>  displays your location in the file and the file status.</li>
 </ol>
 
 <ul>
-<li><code>G</code>  moves to the end of the file.</li>
-<li><code>[number] G</code> moves to that line number.</li>
-<li><code>gg</code>  moves to the first line.</li>
+  <li><code class="highlighter-rouge">G</code>  moves to the end of the file.</li>
+  <li><code class="highlighter-rouge">[number] G</code> moves to that line number.</li>
+  <li><code class="highlighter-rouge">gg</code>  moves to the first line.</li>
 </ul>
 
 <ol>
-<li>Find command</li>
+  <li>Find command</li>
 </ol>
 
 <ul>
-<li>Typing <code>/</code> followed by a phrase searches <strong>FORWARD</strong> for the phrase.</li>
-<li>Typing <code>?</code> followed by a phrase searches <strong>BACKWARD</strong> for the phrase.</li>
-<li>After a search type  n  to find the next occurrence in the same direction</li>
-<li>or <code>N</code> to search in the opposite direction.</li>
-<li><code>CTRL-O</code> takes you back to older positions, CTRL-I to newer positions.</li>
+  <li>Typing <code class="highlighter-rouge">/</code> followed by a phrase searches <strong>FORWARD</strong> for the phrase.</li>
+  <li>Typing <code class="highlighter-rouge">?</code> followed by a phrase searches <strong>BACKWARD</strong> for the phrase.</li>
+  <li>After a search type  n  to find the next occurrence in the same direction</li>
+  <li>or <code class="highlighter-rouge">N</code> to search in the opposite direction.</li>
+  <li><code class="highlighter-rouge">CTRL-O</code> takes you back to older positions, CTRL-I to newer positions.</li>
 </ul>
 
 <ol>
-<li><p>Typing <code>%</code> while the cursor is on a <strong>(</strong> , <strong>)</strong>, <strong>[</strong>, <strong>]</strong>, <strong>{</strong>, or <strong>}</strong> goes to its match.</p></li>
-<li><p>Substitute command</p></li>
+  <li>
+    <p>Typing <code class="highlighter-rouge">%</code> while the cursor is on a <strong>(</strong> , <strong>)</strong>, <strong>[</strong>, <strong>]</strong>, <strong>{</strong>, or <strong>}</strong> goes to its match.</p>
+  </li>
+  <li>
+    <p>Substitute command</p>
+  </li>
 </ol>
 
 <ul>
-<li>To substitute new for the first old in a line type <code>:s/old/new</code></li>
-<li>To substitute new for all &#39;old&#39;s on a line type <code>:s/old/new/g</code></li>
-<li>To substitute phrases between two line #&#39;s type <code>:#,#s/old/new/g</code></li>
-<li>To substitute all occurrences in the file type <code>:%s/old/new/g</code></li>
-<li>To ask for confirmation each time add <strong>c</strong> <code>:%s/old/new/gc</code></li>
+  <li>To substitute new for the first old in a line type <code class="highlighter-rouge">:s/old/new</code></li>
+  <li>To substitute new for all ‘old’s on a line type <code class="highlighter-rouge">:s/old/new/g</code></li>
+  <li>To substitute phrases between two line #’s type <code class="highlighter-rouge">:#,#s/old/new/g</code></li>
+  <li>To substitute all occurrences in the file type <code class="highlighter-rouge">:%s/old/new/g</code></li>
+  <li>To ask for confirmation each time add <strong>c</strong> <code class="highlighter-rouge">:%s/old/new/gc</code></li>
 </ul>
 
 <h2 id="lesson-5-summary">Lesson 5 Summary</h2>
 
 <ol>
-<li><code>:!command</code> executes an external command.</li>
+  <li><code class="highlighter-rouge">:!command</code> executes an external command.</li>
 </ol>
 
 <p>Some useful examples are:</p>
 
-<table><thead>
-<tr>
-<th>(MS-DOS)</th>
-<th>(Unix)</th>
-<th>description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td><code>:!dir</code></td>
-<td><code>:!ls</code></td>
-<td>shows a directory listing</td>
-</tr>
-<tr>
-<td><code>:!del FILENAME</code></td>
-<td><code>:!rm FILENAME</code></td>
-<td>removes file FILENAME</td>
-</tr>
-</tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th>(MS-DOS)</th>
+      <th>(Unix)</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">:!dir</code></td>
+      <td><code class="highlighter-rouge">:!ls</code></td>
+      <td>shows a directory listing</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">:!del FILENAME</code></td>
+      <td><code class="highlighter-rouge">:!rm FILENAME</code></td>
+      <td>removes file FILENAME</td>
+    </tr>
+  </tbody>
+</table>
 
 <ol>
-<li><p><code>:w FILENAME</code> writes the current Vim file to disk with name <strong>FILENAME</strong>.</p></li>
-<li><p><code>v motion :w FILENAME</code> saves the Visually selected lines in file <strong>FILENAME</strong>.</p></li>
-<li><p><code>:r FILENAME</code> retrieves disk file <strong>FILENAME</strong> and puts it below the cursor position.</p></li>
-<li><p><code>:r !dir</code> reads the output of the dir command and puts it below the cursor position.</p></li>
+  <li>
+    <p><code class="highlighter-rouge">:w FILENAME</code> writes the current Vim file to disk with name <strong>FILENAME</strong>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">v motion :w FILENAME</code> saves the Visually selected lines in file <strong>FILENAME</strong>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">:r FILENAME</code> retrieves disk file <strong>FILENAME</strong> and puts it below the cursor position.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">:r !dir</code> reads the output of the dir command and puts it below the cursor position.</p>
+  </li>
 </ol>
 
 <h2 id="lesson-6-summary">Lesson 6 Summary</h2>
 
 <ol>
-<li>Open a line in insert mode</li>
+  <li>Open a line in insert mode</li>
 </ol>
 
 <ul>
-<li>Type <code>o</code> to open a line <strong>BELOW</strong> the cursor and start Insert mode.</li>
-<li>Type <code>O</code> to open a line <strong>ABOVE</strong> the cursor.</li>
+  <li>Type <code class="highlighter-rouge">o</code> to open a line <strong>BELOW</strong> the cursor and start Insert mode.</li>
+  <li>Type <code class="highlighter-rouge">O</code> to open a line <strong>ABOVE</strong> the cursor.</li>
 </ul>
 
 <ol>
-<li>Append text</li>
+  <li>Append text</li>
 </ol>
 
 <ul>
-<li>Type <code>a</code> to insert text AFTER the cursor.</li>
-<li>Type <code>A</code> to insert text after the end of the line.</li>
+  <li>Type <code class="highlighter-rouge">a</code> to insert text AFTER the cursor.</li>
+  <li>Type <code class="highlighter-rouge">A</code> to insert text after the end of the line.</li>
 </ul>
 
 <ol>
-<li><p>The <code>e</code> command moves to the end of a word.</p></li>
-<li><p>The <code>y</code> operator yanks (copies) text, <code>p</code> puts (pastes) it.</p></li>
-<li><p>Typing a capital <code>R</code> enters Replace mode until <code>&lt;ESC&gt;</code> is pressed.</p></li>
-<li><p>Typing <code>:set xxx</code> sets the option <code>xxx</code>.  Some options are:</p></li>
+  <li>
+    <p>The <code class="highlighter-rouge">e</code> command moves to the end of a word.</p>
+  </li>
+  <li>
+    <p>The <code class="highlighter-rouge">y</code> operator yanks (copies) text, <code class="highlighter-rouge">p</code> puts (pastes) it.</p>
+  </li>
+  <li>
+    <p>Typing a capital <code class="highlighter-rouge">R</code> enters Replace mode until <code class="highlighter-rouge">&lt;ESC&gt;</code> is pressed.</p>
+  </li>
+  <li>
+    <p>Typing <code class="highlighter-rouge">:set xxx</code> sets the option <code class="highlighter-rouge">xxx</code>.  Some options are:</p>
+  </li>
 </ol>
 
 <ul>
-<li><code>ic</code> <code>ignorecase</code>       ignore upper/lower case when searching</li>
-<li><code>is</code> <code>incsearch</code>        show partial matches for a search phrase</li>
-<li><code>hls</code> <code>hlsearch</code>        highlight all matching phrases</li>
+  <li><code class="highlighter-rouge">ic</code> <code class="highlighter-rouge">ignorecase</code>       ignore upper/lower case when searching</li>
+  <li><code class="highlighter-rouge">is</code> <code class="highlighter-rouge">incsearch</code>        show partial matches for a search phrase</li>
+  <li><code class="highlighter-rouge">hls</code> <code class="highlighter-rouge">hlsearch</code>        highlight all matching phrases</li>
 </ul>
 
 <p>You can either use the long or the short option name.</p>
 
 <ol>
-<li>Prepend <code>no</code> to switch an option off: <code>:set noic</code></li>
+  <li>Prepend <code class="highlighter-rouge">no</code> to switch an option off: <code class="highlighter-rouge">:set noic</code></li>
 </ol>
 
 <h2 id="lesson-7-summary">Lesson 7 Summary</h2>
 
 <ol>
-<li><p>Type <code>:help</code> or press <code>&lt;F1&gt;</code> or <code>&lt;Help&gt;</code> to open a help window.</p></li>
-<li><p>Type <code>:help cmd</code> to find help on <strong>cmd</strong>.</p></li>
-<li><p>Type <code>CTRL-W CTRL-W</code> to jump to another window</p></li>
-<li><p>Type <code>:q</code> to close the help window</p></li>
-<li><p>Create a vimrc startup script to keep your preferred settings.</p></li>
-<li><p>When typing a <code>:</code> command, press <code>CTRL-D</code> to see possible completions. Press <code>&lt;TAB&gt;</code> to use one completion.</p></li>
+  <li>
+    <p>Type <code class="highlighter-rouge">:help</code> or press <code class="highlighter-rouge">&lt;F1&gt;</code> or <code class="highlighter-rouge">&lt;Help&gt;</code> to open a help window.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">:help cmd</code> to find help on <strong>cmd</strong>.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">CTRL-W CTRL-W</code> to jump to another window</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">:q</code> to close the help window</p>
+  </li>
+  <li>
+    <p>Create a vimrc startup script to keep your preferred settings.</p>
+  </li>
+  <li>
+    <p>When typing a <code class="highlighter-rouge">:</code> command, press <code class="highlighter-rouge">CTRL-D</code> to see possible completions. Press <code class="highlighter-rouge">&lt;TAB&gt;</code> to use one completion.</p>
+  </li>
 </ol>
 
 <h2 id="post-tutorial-reflection">Post Tutorial Reflection</h2>
 
-<p>The tutorial got me through the basics, and only scraps the surface of what you can do with vim. One of the things I found useful after going through this tutorial was saying out loud what the command I was using does. </p>
+<p>The tutorial got me through the basics, and only scraps the surface of what you can do with vim. One of the things I found useful after going through this tutorial was saying out loud what the command I was using does.</p>
 
-<p>For example, if I was using the <code>w</code> command, I would say &quot;word&quot;. If I was going to the word, and I was using the <code>diw</code> command, I would say &quot;delete instance word&quot;. Using words instead of letters helps with getting the commands down. It&#39;s the same technique I used when learning the bash terminal, e.g. with <code>pwd</code>, I would say in my head, &quot;print working directory&quot;.</p>
+<p>For example, if I was using the <code class="highlighter-rouge">w</code> command, I would say “word”. If I was going to the word, and I was using the <code class="highlighter-rouge">diw</code> command, I would say “delete instance word”. Using words instead of letters helps with getting the commands down. It’s the same technique I used when learning the bash terminal, e.g. with <code class="highlighter-rouge">pwd</code>, I would say in my head, “print working directory”.</p>
 
 <p>I wrote up a much longer post about vim that I will publish soon.</p>
 
-
+	
   <h3 class="update-date">Last Updated 06 December 2015</h3>
-  <a class="back" href="http://jermspeaks.github.io/continued-learning">See all topics</a>
+  <a class="back" href="/continued-learning">See all topics</a>
 </div>
 
     </div>
