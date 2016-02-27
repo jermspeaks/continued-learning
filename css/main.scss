@@ -21,6 +21,7 @@
 // layouts
 // @import "header";
 // @import "layout";
+@import "components/index";
 
 
 // Variables
@@ -226,5 +227,9 @@ a {
 // Code
 code {
   font-family: Hack, monospace;
-  font-size: 0.8em;  
+  font-size: 0.8em;
+}
+
+.highlighter-rouge {
+  font-size: 16px;
 }
