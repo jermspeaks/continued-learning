@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Let's Learn | Interview Prep</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Raleway:300,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+  <link rel="stylesheet" href="/continued-learning/css/main.css">
+</head>
+	<body>
+		<!--[if lt IE 9]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+    <div class="container">
+    	<div class="post">
+  
+  <h1 id="interview-prep">Interview Prep</h1>
+
+<p>A friend asked for my help with an upcoming interview she’s preparing for,
+so I thought it’s a good time to write-up the interview preparation process.</p>
+
+<h2 id="interview-help-request">Interview Help Request</h2>
+
+<p>The following is the initial exchange of what areas she wanted to focus on.</p>
+
+<blockquote>
+  <p>Here are the areas and key points (I know of) that they will be asking me about during the interview.</p>
+</blockquote>
+
+<blockquote>
+  <p>For some additional context, the interview itself will have the interviewers seated and me standing in front of a whiteboard I can use when I am trying to explain a concept as well.
+Definitely meant to help them get a feel for how a candidate would present the information to a group of students.</p>
+</blockquote>
+
+<h3 id="explaining-the-http-request-and-response-cycle">1. <strong>Explaining the HTTP Request and Response Cycle</strong></h3>
+
+<blockquote>
+  <p><em>This is what [the interviewers] like to start with.</em></p>
+</blockquote>
+
+<blockquote>
+  <p>I should be able to comfortably navigate through the [HTTP Request &amp; Response] cycle at its simplest.
+[For example, explain a GET request].</p>
+</blockquote>
+
+<blockquote>
+  <p>Accurately describe major components:</p>
+  <ul>
+    <li>HTTP</li>
+    <li>DNS</li>
+    <li>the Client &amp; Server</li>
+    <li>HTTP request and response anatomy</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>[And] note possible variations of a particular step.
+For example, naming a few common HTTP request and/or response headers that may be included and why.
+You must mention when &amp; how a set-session token/key fits into this.</p>
+</blockquote>
+
+<blockquote>
+  <p>Not sure whether or not I will need to get into the difference between handling a request for static content vs. a request requiring server-side processing.</p>
+</blockquote>
+
+<blockquote>
+  <p>[They may want me to cover] server-side processing in the next topic.</p>
+</blockquote>
+
+<blockquote>
+  <p>Additionally, I wouldn’t be surprised if they wanted to test my general knowledge of the server setup.
+I would probably touch on this in my explanation, however they may want me to further clarify the role of the load balancer/proxy server software
+we typically install during deployment, such as Nginx/Phusion Passenger, and how its role differs from the server where the actual application/site resides.</p>
+</blockquote>
+
+<blockquote>
+  <p>Or, just throw out a question to test that I know what it is.
+While listening to my presentation they will be making sure that I properly refer to the different parts and how they relate to each other.</p>
+</blockquote>
+
+<blockquote>
+  <p>Interviewers are likely to interject asking for clarification on a point I glossed over, or if they want to see whether I have further knowledge of a component mentioned.
+From what I was told they try to make some questions somewhat similar to how a student may probe a new teacher during a lecture.</p>
+</blockquote>
+
+<h3 id="explaining-mvc-pattern-architecture">2. <strong>Explaining MVC pattern architecture</strong></h3>
+
+<blockquote>
+  <p>I wasn’t asked this in the first interview, however know I will be asked about this on the second.
+I am not sure exactly about the depth they will want me to go into. I think it mainly pertains to my understanding purpose of this architecture as well as being able to explain what each component/part does and how they interact.
+Finally, they will probably want my presentation to touch on request handling within an MVC pattern framework as well, definitely heard the motto “fat models, skinny controllers” a lot when I was being taught.</p>
+</blockquote>
+
+<h3 id="oop---3-pillars-inheritance-encapsulation--polymorphism">3. <strong>OOP - 3 Pillars (Inheritance, Encapsulation &amp; Polymorphism)</strong></h3>
+
+<blockquote>
+  <p>I think they want me to be able to provide a good 1-3 sentence definition of each of the three pillars. They will likely ask me to define some basic components and throw in trivial questions regarding classes, objects, method overriding, etc.
+In addition to above, they may want me to write out an example of one or possibly all the 3 pillars in Python/Ruby. (for this specific position, they will likely want some verbal/written examples to be provided for most of the topics mentioned)</p>
+</blockquote>
+
+<h3 id="rest-apis--restful-routing">4. <strong>REST APIs &amp; RESTful Routing</strong></h3>
+
+<blockquote>
+  <p>These areas I am more unsure about, in regards to what kind of information they would want.
+We didn’t go very deeply into the concept of REST APIs during the bootcamp itself, any explanations were usually in optional sections of the platform.
+My best guess, based on the curriculum, is they would be satisfied with a well-rounded overview/definition of what REST is and why its used.
+Additionally, explaining implementation of RESTful Routing in a framework such as Rails or Django (more semi-RESTful for the latter).</p>
+</blockquote>
+
+<blockquote>
+  <p>And there is a small chance they may ask me about APIs, which can be as general as “What is an API?” and “How are they used?” or as specific as providing an example of API usage with AJAX and jQuery.</p>
+</blockquote>
+
+<h3 id="javascript-algorithms">5. <strong>JavaScript Algorithms</strong></h3>
+
+<blockquote>
+  <p>There is a 75% chance they will ask me to do up to 2 of the following,
+however depending on the interviewer there is an off-chance I can get an algorithm I have never seen before or one they know I can’t solve.</p>
+</blockquote>
+
+<blockquote>
+  <p>Basic Data-type Manipulation (strings/arrays/dictionaries) - eg; reversing an array in place</p>
+</blockquote>
+
+<blockquote>
+  <p>Popular Sorting Algorithms (Bubble, Selection, Insertion or Merge). <em>most likely culprits, but Quick Sort is on the table as well</em></p>
+</blockquote>
+
+<blockquote>
+  <p>Algorithms using Linked Lists or Binary Search Tree data structures (on the TA checklist, they have us submit Push/Shift/Unshift/Pop method linked lists algorithms &amp; find/search with a BST)</p>
+</blockquote>
+
+<blockquote>
+  <p>It would make sense for them to verify I can actually do them on my own.</p>
+</blockquote>
+
+<blockquote>
+  <p>Based on the advice I was given, they would first want me to explain how a particular algorithm works/show I understand the objective (eg, that the Push method would mean adding a node to the end of the linked list in question, or that I can explain how the Bubble sort actually sorts an array rather than how the Selection sort would accomplish that), next psuedo-code and say how I plan to approach the solution, then writing out the code (last two parts can be combined, like explaining as I write out the code).</p>
+</blockquote>
+
+<h2 id="sample-questions">Sample Questions</h2>
+
+<p>From this scope, I’m taking a stab at formulating questions I would ask if I was interviewing this candidate.</p>
+
+<h3 id="questions-about-http-request--response-cycle">Questions about HTTP Request &amp; Response Cycle</h3>
+
+<ul>
+  <li>Explain what happens when a user hits enter after typing a URL in a browser.</li>
+  <li>What is the difference between latency and bandwidth?</li>
+  <li>What is DNS?</li>
+  <li>What is an IP address?</li>
+  <li>Explain the HTTP request &amp; response cycle</li>
+  <li>Explain an AJAX request</li>
+  <li>What are the drawbacks of using cookies? What are alternatives?</li>
+  <li>What is session management?</li>
+</ul>
+
+<h4 id="networking-questions">Networking Questions</h4>
+
+<ul>
+  <li>What would you check if a website is slow?</li>
+  <li>What is a load balancer? What are some examples of solutions?</li>
+  <li>Explain long-polling. <em>Follow-up</em>: explain web-sockets.
+<a href="http://stackoverflow.com/questions/10028770/in-what-situations-would-ajax-long-short-polling-be-preferred-over-html5-websock">pubnub explanation</a></li>
+  <li>Explain WebRTC</li>
+  <li>Explain Server Sent Events</li>
+  <li>What is HTTP 1.1 and what is HTTP 2?</li>
+  <li>What is an RFC (request for comments)? How about an ISO document?
+<a href="https://tools.ietf.org/html/rfc2616">Sample RFC for HTTP 1.1</a></li>
+  <li>What are some ways to optimize the payload sent from the server? (For example, gzip, uglfying js, minimizing css/js, shortening header content length, etc.)</li>
+  <li>What is a CDN?</li>
+</ul>
+
+<h4 id="security-questions">Security Questions</h4>
+
+<ul>
+  <li>What is CORS? What can you do with CORS to secure your website from cross-site request forgery (CSRF)?</li>
+</ul>
+
+<h3 id="questions-about-mvc-model">Questions about MVC Model</h3>
+
+<ul>
+  <li>What is the MVC model?</li>
+  <li>How does the model, controller, and view interact with each other in Django?
+How about in Rails? How about in any front-end framework?</li>
+  <li>Have you heard of variations on the MVC model, like MVVM or MVP?
+<a href="http://stackoverflow.com/questions/141912/alternatives-to-the-mvc">stackoverflow</a></li>
+  <li>What are some examples of frameworks with MVC on the back-end?
+What are some examples of having MVC or MVC-like frameworks on the front-end?
+What are the pros and cons of having MVC all on the back-end?</li>
+</ul>
+
+<h4 id="extra-database-questions">Extra database questions</h4>
+
+<ul>
+  <li>What is ORM?</li>
+  <li>What is a Store Procedure and how is it different to ORM?</li>
+  <li>Can you write SQL queries in Rails Active Record?</li>
+  <li>What is NoSQL?</li>
+  <li>Why use a Document Database over a Relational Database?</li>
+  <li>What are some purposes of a key-value store like Redis?</li>
+  <li>What is the <a href="https://en.wikipedia.org/wiki/CAP_theorem">CAP theorem</a>?</li>
+  <li>What are the set of properties of database transactions, known as <a href="https://en.wikipedia.org/wiki/ACID">ACID</a>?</li>
+</ul>
+
+<h4 id="server-side-rendering">Server Side Rendering</h4>
+
+<ul>
+  <li>What is server-side rendering? <em>Follow-up</em>: Why choose this over client-side templating?</li>
+  <li>What is code-splitting? Why would you use this?</li>
+</ul>
+
+<h5 id="resources">Resources</h5>
+
+<ul>
+  <li><a href="https://medium.com/@apostolos/server-side-rendering-code-splitting-and-hot-reloading-with-react-router-v4-87239cfc172c#.uin5876up">Michael Jackson’s talk on Server-side Rendering, Code Splitting, and Hot Reloading</a></li>
+</ul>
+
+<h3 id="questions-about-oop---3-pillars-inheritance-encapsulation--polymorphism">Questions about OOP - 3 Pillars (Inheritance, Encapsulation &amp; Polymorphism)</h3>
+
+<ul>
+  <li>What are the three pillars of Object-oriented Programming?</li>
+  <li>Please give an analogy representing each of the three pillars of Object-oriented Programming</li>
+  <li>What is an example of the difference between inheritance and polymorphism?
+<em>Answer</em>: Polymorphism is a subsection of Inheritance involving behaviors</li>
+  <li>What are some principles of object-oriented design?
+<a href="https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)">SOLID principles</a></li>
+</ul>
+
+<h4 id="a-brief-detour-in-functional-programming">A brief detour in Functional Programming</h4>
+<ul>
+  <li>What’s the difference between class inheritance and object composition?</li>
+  <li>What is a closure in Javscript?</li>
+  <li>What is immutability and when is it important to use this principle?</li>
+  <li>What is prototypal inheritance in Javascript?
+<em>Follow-up</em>: How is this different to classical inheritance?</li>
+</ul>
+
+<h5 id="resources-1">Resources</h5>
+
+<ul>
+  <li><a href="https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.5bhsdwsnt">10 Interview questions every JS Developer should know</a></li>
+  <li><a href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Video explaining inheritance vs. composition</a></li>
+</ul>
+
+<h3 id="questions-about-rest-apis--restful-routing">Questions about REST APIs &amp; RESTful Routing</h3>
+
+<ul>
+  <li>What is an API? Can you define it using the terms <code class="highlighter-rouge">consumer</code>, <code class="highlighter-rouge">provider</code>, and <code class="highlighter-rouge">contract</code>?</li>
+  <li>What’s the difference between a GET and POST request?</li>
+  <li>If you were to create a new user through an REST API call, what HTTP verb would you use?</li>
+  <li>If you were to query through a database given a complex query through an REST API call, what HTTP verb would you use?</li>
+  <li>Why would you use a PUT call?</li>
+  <li>Do you know what the <a href="https://www.openapis.org/">Open API Initiative</a> is? <em>This one is to throw the person off</em>
+<a href="http://swagger.io/">Swagger</a> plug</li>
+  <li>Why use placeholders in SQL queries? (Answer: defense against SQL Injections)
+Better Question: What is a placeholder and why would you use them in SQL queries?</li>
+</ul>
+
+<h3 id="questions-about-javascript-algorithms">Questions about JavaScript Algorithms</h3>
+
+<ul>
+  <li>Write a function that receives an argument for prime # and return the prime in that position.
+Example:
+    <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">getPrime</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// 3</span>
+<span class="nx">getPrime</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span> <span class="c1">// 11</span>
+</code></pre>
+    </div>
+  </li>
+  <li>Given a nested array, <code class="highlighter-rouge">[1, [2, 3, [4]]</code>, flatten the array, <code class="highlighter-rouge">[1, 2, 3, 4]</code>.</li>
+  <li>In recursion, what is a base condition?</li>
+  <li>Without using Javascript’s <code class="highlighter-rouge">map</code> function, please write your own <code class="highlighter-rouge">map</code> implementation.</li>
+  <li>Write a <code class="highlighter-rouge">select</code> function that takes an array of objects and finds the first entry of the object with a given name<string>.</string></li>
+  <li>Given an array from 1 to 100, write a binary search which takes a target. What is the O notation of your solution?
+(I personally hate this question)</li>
+  <li>Given a class that mimics linked list data structure, write an add function for it.
+(I also hate this question)</li>
+  <li>Write a function that is a closure, i.e. a function that returns a function, for adding.
+The input is how much to add by.
+The return is a function that takes a number input that returns the sum of that number
+and the first input.
+    <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// answer</span>
+<span class="kr">const</span> <span class="nx">addBy</span> <span class="o">=</span> <span class="p">(</span><span class="nx">factor</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="nx">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">factor</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
+</code></pre>
+    </div>
+  </li>
+  <li><em>Follow-up</em>: Do the same for a product.</li>
+  <li>Write a debounce function.
+Debouncing is when you stop firing the same function for a certain amount of period after firing for the the first time.
+For example, if you had a “resize” function, you would not fire “resize” if you set the debounce for 500ms.</li>
+  <li>What is the difference between
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"><code class="highlighter-rouge">apply()</code></a> and
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"><code class="highlighter-rouge">call()</code></a>?</li>
+  <li>What is the purpose of <code class="highlighter-rouge">this</code> keyword in Javascript?</li>
+  <li>Explain scoping in Javascript.</li>
+  <li>Explain variable hoisting in Javascript.</li>
+  <li>Given a list of U.S. states and a list of capital cities, how would you merge these two lists to return one list?
+The common factor between these two are state codes.
+State collection example entry:
+    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
+</span><span class="nt">"displayName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"California"</span><span class="p">,</span><span class="w">
+</span><span class="nt">"Abbr"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CA"</span><span class="p">,</span><span class="w">
+</span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+</span><span class="p">}]</span><span class="w">
+</span></code></pre>
+    </div>
+    <p>Capital City collection example entry:</p>
+    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
+</span><span class="nt">"displayName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sacramento"</span><span class="p">,</span><span class="w">
+</span><span class="nt">"stateCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+</span><span class="p">}]</span><span class="w">
+</span></code></pre>
+    </div>
+    <p><em>Follow-up</em>: How could you filter this so you only return states that start with “North” or “South”?
+Could you do this using the <code class="highlighter-rouge">reduce</code> function for Javascript Arrays?</p>
+  </li>
+</ul>
+
+<h4 id="ruby-questions">Ruby Questions</h4>
+
+<p>These questions can also be for Python.</p>
+
+<ul>
+  <li>What is memoization? When would you use this?</li>
+  <li>What is a cache and how would you write a simple key-value cache?</li>
+  <li>What is a lambda and why use this over blocks? How are lambdas and closures related?</li>
+  <li>What are the differences between <code class="highlighter-rouge">private</code> and <code class="highlighter-rouge">protected</code> methods?</li>
+</ul>
+
+<h3 id="other-questions">Other Questions</h3>
+
+<ul>
+  <li>What is your favorite open source framework? Why is it your favorite? Are you a contributor to that project?</li>
+  <li>What are the pros and cons of choosing an open source framework over a custom solution? When is it valid for a custom solution?</li>
+  <li>What are some principles you have to error handling?</li>
+  <li><em>Follow-up</em>: What are some common exception types?</li>
+  <li>Why would you use a <code class="highlighter-rouge">try...catch</code> block and should you use this in production?</li>
+  <li>What are some general use-cases for logging?</li>
+  <li>What are common failures that would cause your server to crash?</li>
+</ul>
+
+<h2 id="sample-criteria">Sample Criteria</h2>
+
+<p>Here’s some criteria I look at when interviewing a new candidate. This is from past experience.</p>
+
+<ul>
+  <li>Knowledgable: Can the candidate explain the content? Can the candidate solve the whiteboard problem? Can the candidate explain their own code? Can the candidate explain a foreign topic? (BS monitor)</li>
+  <li>Presentation: Is the candidate concise? Or do they ramble? Can they explain concepts in a minute or less? Do they gauge the interviewer for comprehension? Is the candidate audible?</li>
+  <li>Personality: Is the candidate asking questions and are they probing on open ended questions? Does the candidate exude humility, like saying “they don’t know” when they don’t know something?</li>
+  <li>Seriousness: Is the candidate serious about the position? Did they do any research prior?</li>
+  <li>Team player: Is the candidate’s prior work long-standing at a single company or jumping around a lot in short-term gigs? Can the candidate work well with others?</li>
+</ul>
+
+	
+  <h3 class="update-date">Last Updated 19 February 2017</h3>
+  <a class="back" href="/continued-learning">See all topics</a>
+</div>
+
+    </div>
+	</body>
+</html>

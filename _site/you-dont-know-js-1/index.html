@@ -163,7 +163,7 @@
   <li>I rarely use <code class="highlighter-rouge">do..while</code> loops. Here’s the syntax.</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="k">do</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">do</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'How may I help you?'</span><span class="p">);</span>
   <span class="c1">// Help the customer</span>
   <span class="nx">numOfCustomers</span> <span class="o">=</span> <span class="nx">numOfCustomers</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
@@ -183,7 +183,7 @@
   <li>The <em>lexical scope</em>, or <em>scope</em>, is the programming term to tell us where our variables can be accessed.</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">outer</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">outer</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
     <span class="kd">function</span> <span class="nx">inner</span><span class="p">()</span> <span class="p">{</span>
@@ -286,7 +286,7 @@
   <li>Use <code class="highlighter-rouge">let</code> for block scoped variables. For example, in an <code class="highlighter-rouge">if</code> block, you declare a variable you only want to be used within that block, use <code class="highlighter-rouge">let</code>.</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
     <span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
@@ -312,7 +312,7 @@
   <li>I feel computer science needs to put unnecessarily long titles to items. <strong>Immediately invoked function expressions (IIFE)</strong> are involved upon declaration.</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span> <span class="nx">IIFE</span><span class="p">(){</span>
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span> <span class="nx">IIFE</span><span class="p">(){</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="s2">"Hello!"</span> <span class="p">);</span>
 <span class="p">})();</span>
 <span class="c1">// "Hello!"</span>
