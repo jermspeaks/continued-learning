@@ -236,6 +236,10 @@ Capital City collection example entry:
 *Follow-up*: How could you filter this so you only return states that start with "North" or "South"?
 Could you do this using the `reduce` function for Javascript Arrays?
 
+#### Resources
+
+- [Nodeschool on Closures](https://github.com/workshopper/scope-chains-closures)
+
 #### Ruby Questions
 
 These questions can also be for Python.
