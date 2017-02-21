@@ -169,6 +169,7 @@ What are the pros and cons of having MVC all on the back-end?
 
 - [10 Interview questions every JS Developer should know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.5bhsdwsnt)
 - [Video explaining inheritance vs. composition](https://www.youtube.com/watch?v=wfMtDGfHWpA)
+- [POODR](https://github.com/edenzik/cs105b/blob/master/books/Practical%20Object-Oriented%20Design%20in%20Ruby.pdf)
 
 ### Questions about REST APIs & RESTful Routing
 
