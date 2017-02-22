@@ -19,6 +19,8 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 * [BotWiki](https://botwiki.org/tutorials/)
 * [Polymer](https://egghead.io/series/creating-custom-web-elements-with-polymer)
 * [Angular 2](https://angular.io/)
+* [ES6](https://github.com/sgaurav/understanding-es6)
+* [Sketch Basics](https://teamtreehouse.com/library/sketch-basics)
 
 ## Past Topics
 
