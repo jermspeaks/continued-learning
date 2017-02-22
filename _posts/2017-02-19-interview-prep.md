@@ -79,7 +79,7 @@ The following is the initial exchange of what areas she wanted to focus on.
 
 > Popular Sorting Algorithms (Bubble, Selection, Insertion or Merge). *most likely culprits, but Quick Sort is on the table as well*
 
-> Algorithms using Linked Lists or Binary Search Tree data structures (on the TA checklist, they have us submit Push/Shift/Unshift/Pop method linked lists algorithms & find/search with a BST)
+> Algorithms using Linked Lists or Binary Search Tree data structures. Could be Push/Shift/Unshift/Pop methods, linked lists algorithms & find/search with a BST
 
 > It would make sense for them to verify I can actually do them on my own.
 
