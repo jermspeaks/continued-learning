@@ -19,10 +19,12 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 * [BotWiki](https://botwiki.org/tutorials/)
 * [Polymer](https://egghead.io/series/creating-custom-web-elements-with-polymer)
 * [Angular 2](https://angular.io/)
+* [cmake](https://cmake.org/)
+* [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
+* [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+* [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 * [ES6](https://github.com/sgaurav/understanding-es6)
 * [Sketch Basics](https://teamtreehouse.com/library/sketch-basics)
 
+
 ## Past Topics
-
-
-

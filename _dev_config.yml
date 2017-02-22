@@ -2,17 +2,18 @@
 authors: Jeremy Wong
 name: Continued Learning
 description: website to continue learning
+cdn_path: https://dl.dropboxusercontent.com/u/37155229/continued-learning
 
 # Build Settings
-markdown: redcarpet
-redcarpet:
-  extensions: [
-    "no_intra_emphasis",
-    "fenced_code_blocks",
-    "autolink",
-    "tables",
-    "with_toc_data"
-  ]
+markdown: kramdown
+# redcarpet:
+#   extensions: [
+#     "no_intra_emphasis",
+#     "fenced_code_blocks",
+#     "autolink",
+#     "tables",
+#     "with_toc_data"
+#   ]
 permalink: /:title/
 exclude: [
   'node_modules',
@@ -25,9 +26,10 @@ exclude: [
 ]
 timezone: UTC
 encoding: utf-8
-baseurl: "/continued-learning/" # the subpath of the website
+baseurl: "/continued-learning" # the subpath of the website
 url: http://127.0.0.1:4000
 gems: []
 sass:
   sass_dir: _sass
   style: compressed
+destination: _site
