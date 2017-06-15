@@ -25,6 +25,6 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 * [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 * [ES6](https://github.com/sgaurav/understanding-es6)
 * [Sketch Basics](https://teamtreehouse.com/library/sketch-basics)
-
+* [Typescript](https://thinkster.io/tutorials/getting-started-with-typescript)
 
 ## Past Topics
