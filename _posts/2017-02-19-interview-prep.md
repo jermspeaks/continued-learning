@@ -81,8 +81,6 @@ The following is the initial exchange of what areas she wanted to focus on.
 
 > Algorithms using Linked Lists or Binary Search Tree data structures. Could be Push/Shift/Unshift/Pop methods, linked lists algorithms & find/search with a BST
 
-> It would make sense for them to verify I can actually do them on my own.
-
 > Based on the advice I was given, they would first want me to explain how a particular algorithm works/show I understand the objective (eg, that the Push method would mean adding a node to the end of the linked list in question, or that I can explain how the Bubble sort actually sorts an array rather than how the Selection sort would accomplish that), next psuedo-code and say how I plan to approach the solution, then writing out the code (last two parts can be combined, like explaining as I write out the code).
 
 ## Sample Questions
