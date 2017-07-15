@@ -7,6 +7,8 @@ categories: bash
 
 # Brace expansion
 
+From http://wiki.bash-hackers.org/syntax/expansion/brace
+
 ```bash
 {string1,string2,...,stringN}
 {<START>..<END>}
