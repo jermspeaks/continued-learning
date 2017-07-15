@@ -8,6 +8,7 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 
 ## Future Topics
 
+* [Vids to watch](https://hacks.mozilla.org/2014/12/you-cant-go-wrong-watching-javascript-talks/)
 * [Dotfiles](http://dotfiles.github.io/)
 * [Advanced Git Features](https://github.com/git-game/git-game-v2)
 * [Vim Plugin Manager](https://github.com/junegunn/vim-plug)
