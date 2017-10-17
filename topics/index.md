@@ -28,4 +28,8 @@ Here you will find a list of general topics for me to tackle. For challenges, ex
 * [Sketch Basics](https://teamtreehouse.com/library/sketch-basics)
 * [Typescript](https://thinkster.io/tutorials/getting-started-with-typescript)
 
+* Crash course into crytocurrency
+  * [Getting started with cryptoassets](https://docs.google.com/document/d/1qOxQwB9lm02rIVUI6_YOJri9EA_1Qwog7HpncqkoGuI)
+  * [Listen to first half hour](https://tim.blog/2017/06/04/nick-szabo/)
+
 ## Past Topics
