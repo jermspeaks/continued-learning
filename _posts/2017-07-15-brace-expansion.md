@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Brace Expansion
-published: false
+published: true
 categories: bash
 ---
 
@@ -129,7 +129,8 @@ Brace expansions can be nested, but too much of it usually makes you losing over
 
 Here's a sample to generate the alphabet, first the uppercase letters, then the lowercase ones:
 ```bash
-$ echo {{A..Z},{a..z}}
+{% assign special = '{{A..Z},{a..z}}' %}
+$ echo {{ special }}
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
 ```
 
