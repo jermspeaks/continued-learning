@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Raleway:300,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
-  <link rel="stylesheet" href="/continued-learning/css/main.css">
+  <link rel="stylesheet" href="http://jermspeaks.github.io/continued-learning/css/main.css">
 </head>
 	<body>
 		<!--[if lt IE 9]>
@@ -36,7 +36,7 @@ so I thought it’s a good time to write-up the interview preparation process.</
 Definitely meant to help them get a feel for how a candidate would present the information to a group of students.</p>
 </blockquote>
 
-<h3 id="explaining-the-http-request-and-response-cycle">1. <strong>Explaining the HTTP Request and Response Cycle</strong></h3>
+<h3 id="1-explaining-the-http-request-and-response-cycle">1. <strong>Explaining the HTTP Request and Response Cycle</strong></h3>
 
 <blockquote>
   <p><em>This is what [the interviewers] like to start with.</em></p>
@@ -87,7 +87,7 @@ While listening to my presentation they will be making sure that I properly refe
 From what I was told they try to make some questions somewhat similar to how a student may probe a new teacher during a lecture.</p>
 </blockquote>
 
-<h3 id="explaining-mvc-pattern-architecture">2. <strong>Explaining MVC pattern architecture</strong></h3>
+<h3 id="2-explaining-mvc-pattern-architecture">2. <strong>Explaining MVC pattern architecture</strong></h3>
 
 <blockquote>
   <p>I wasn’t asked this in the first interview, however know I will be asked about this on the second.
@@ -95,14 +95,14 @@ I am not sure exactly about the depth they will want me to go into. I think it m
 Finally, they will probably want my presentation to touch on request handling within an MVC pattern framework as well, definitely heard the motto “fat models, skinny controllers” a lot when I was being taught.</p>
 </blockquote>
 
-<h3 id="oop---3-pillars-inheritance-encapsulation--polymorphism">3. <strong>OOP - 3 Pillars (Inheritance, Encapsulation &amp; Polymorphism)</strong></h3>
+<h3 id="3-oop---3-pillars-inheritance-encapsulation--polymorphism">3. <strong>OOP - 3 Pillars (Inheritance, Encapsulation &amp; Polymorphism)</strong></h3>
 
 <blockquote>
   <p>I think they want me to be able to provide a good 1-3 sentence definition of each of the three pillars. They will likely ask me to define some basic components and throw in trivial questions regarding classes, objects, method overriding, etc.
 In addition to above, they may want me to write out an example of one or possibly all the 3 pillars in Python/Ruby. (for this specific position, they will likely want some verbal/written examples to be provided for most of the topics mentioned)</p>
 </blockquote>
 
-<h3 id="rest-apis--restful-routing">4. <strong>REST APIs &amp; RESTful Routing</strong></h3>
+<h3 id="4-rest-apis--restful-routing">4. <strong>REST APIs &amp; RESTful Routing</strong></h3>
 
 <blockquote>
   <p>These areas I am more unsure about, in regards to what kind of information they would want.
@@ -115,7 +115,7 @@ Additionally, explaining implementation of RESTful Routing in a framework such a
   <p>And there is a small chance they may ask me about APIs, which can be as general as “What is an API?” and “How are they used?” or as specific as providing an example of API usage with AJAX and jQuery.</p>
 </blockquote>
 
-<h3 id="javascript-algorithms">5. <strong>JavaScript Algorithms</strong></h3>
+<h3 id="5-javascript-algorithms">5. <strong>JavaScript Algorithms</strong></h3>
 
 <blockquote>
   <p>There is a 75% chance they will ask me to do up to 2 of the following,
@@ -131,11 +131,7 @@ however depending on the interviewer there is an off-chance I can get an algorit
 </blockquote>
 
 <blockquote>
-  <p>Algorithms using Linked Lists or Binary Search Tree data structures (on the TA checklist, they have us submit Push/Shift/Unshift/Pop method linked lists algorithms &amp; find/search with a BST)</p>
-</blockquote>
-
-<blockquote>
-  <p>It would make sense for them to verify I can actually do them on my own.</p>
+  <p>Algorithms using Linked Lists or Binary Search Tree data structures. Could be Push/Shift/Unshift/Pop methods, linked lists algorithms &amp; find/search with a BST</p>
 </blockquote>
 
 <blockquote>
@@ -245,6 +241,7 @@ What are the pros and cons of having MVC all on the back-end?</li>
 <ul>
   <li><a href="https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.5bhsdwsnt">10 Interview questions every JS Developer should know</a></li>
   <li><a href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Video explaining inheritance vs. composition</a></li>
+  <li><a href="https://github.com/edenzik/cs105b/blob/master/books/Practical%20Object-Oriented%20Design%20in%20Ruby.pdf">POODR</a></li>
 </ul>
 
 <h3 id="questions-about-rest-apis--restful-routing">Questions about REST APIs &amp; RESTful Routing</h3>
@@ -266,10 +263,9 @@ Better Question: What is a placeholder and why would you use them in SQL queries
 <ul>
   <li>Write a function that receives an argument for prime # and return the prime in that position.
 Example:
-    <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">getPrime</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// 3</span>
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">getPrime</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// 3</span>
 <span class="nx">getPrime</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span> <span class="c1">// 11</span>
-</code></pre>
-    </div>
+</code></pre></div>    </div>
   </li>
   <li>Given a nested array, <code class="highlighter-rouge">[1, [2, 3, [4]]</code>, flatten the array, <code class="highlighter-rouge">[1, 2, 3, 4]</code>.</li>
   <li>In recursion, what is a base condition?</li>
@@ -283,10 +279,9 @@ Example:
 The input is how much to add by.
 The return is a function that takes a number input that returns the sum of that number
 and the first input.
-    <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// answer</span>
-<span class="kr">const</span> <span class="nx">addBy</span> <span class="o">=</span> <span class="p">(</span><span class="nx">factor</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="nx">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">factor</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
-</code></pre>
-    </div>
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// answer</span>
+<span class="kd">const</span> <span class="nx">addBy</span> <span class="o">=</span> <span class="p">(</span><span class="nx">factor</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="nx">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">factor</span> <span class="o">+</span> <span class="nx">number</span><span class="p">;</span>
+</code></pre></div>    </div>
   </li>
   <li><em>Follow-up</em>: Do the same for a product.</li>
   <li>Write a debounce function.
@@ -301,23 +296,27 @@ For example, if you had a “resize” function, you would not fire “resize”
   <li>Given a list of U.S. states and a list of capital cities, how would you merge these two lists to return one list?
 The common factor between these two are state codes.
 State collection example entry:
-    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
-</span><span class="nt">"displayName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"California"</span><span class="p">,</span><span class="w">
-</span><span class="nt">"Abbr"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CA"</span><span class="p">,</span><span class="w">
-</span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+    <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[{</span><span class="w">
+</span><span class="s2">"displayName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"California"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"Abbr"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CA"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
 </span><span class="p">}]</span><span class="w">
-</span></code></pre>
-    </div>
+</span></code></pre></div>    </div>
     <p>Capital City collection example entry:</p>
-    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
-</span><span class="nt">"displayName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sacramento"</span><span class="p">,</span><span class="w">
-</span><span class="nt">"stateCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+    <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[{</span><span class="w">
+</span><span class="s2">"displayName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sacramento"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"stateCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
 </span><span class="p">}]</span><span class="w">
-</span></code></pre>
-    </div>
+</span></code></pre></div>    </div>
     <p><em>Follow-up</em>: How could you filter this so you only return states that start with “North” or “South”?
 Could you do this using the <code class="highlighter-rouge">reduce</code> function for Javascript Arrays?</p>
   </li>
+</ul>
+
+<h4 id="resources-2">Resources</h4>
+
+<ul>
+  <li><a href="https://github.com/workshopper/scope-chains-closures">Nodeschool on Closures</a></li>
 </ul>
 
 <h4 id="ruby-questions">Ruby Questions</h4>
@@ -357,7 +356,7 @@ Could you do this using the <code class="highlighter-rouge">reduce</code> functi
 
 	
   <h3 class="update-date">Last Updated 19 February 2017</h3>
-  <a class="back" href="/continued-learning">See all topics</a>
+  <a class="back" href="http://jermspeaks.github.io/continued-learning">See all topics</a>
 </div>
 
     </div>
